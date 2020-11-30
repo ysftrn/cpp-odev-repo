@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/roy/CLionProjects/Odevler/HomeworkTemplate/Classes/MyContainer.h
+iostream
+-
+
+/home/roy/CLionProjects/Odevler/HomeworkTemplate/Core/HomeworkInterface.h
+
+/home/roy/CLionProjects/Odevler/HomeworkTemplate/Homeworks/HomeworkTwo.cpp
+HomeworkTwo.h
+/home/roy/CLionProjects/Odevler/HomeworkTemplate/Homeworks/HomeworkTwo.h
+../Classes/MyContainer.h
+/home/roy/CLionProjects/Odevler/HomeworkTemplate/Classes/MyContainer.h
+
+/home/roy/CLionProjects/Odevler/HomeworkTemplate/Homeworks/HomeworkTwo.h
+../Core/HomeworkInterface.h
+/home/roy/CLionProjects/Odevler/HomeworkTemplate/Core/HomeworkInterface.h
+
