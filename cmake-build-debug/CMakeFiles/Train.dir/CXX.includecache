@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/roy/CLionProjects/Odevler/Train/Commands/ExitCommand.cpp
+ExitCommand.h
+/home/roy/CLionProjects/Odevler/Train/Commands/ExitCommand.h
+
+/home/roy/CLionProjects/Odevler/Train/Commands/ExitCommand.h
+../Core/Command.h
+/home/roy/CLionProjects/Odevler/Train/Core/Command.h
+../Core/App.h
+/home/roy/CLionProjects/Odevler/Train/Core/App.h
+
+/home/roy/CLionProjects/Odevler/Train/Core/App.h
+
+/home/roy/CLionProjects/Odevler/Train/Core/Command.h
+

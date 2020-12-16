@@ -1,12 +1,6 @@
 #include <iostream>
-#include "config/InitializableHomeworkList.h"
-
-/*
- * vektor sınıfı toplama cıkarma nokta carpımı skaler carpım  cross product ve template cevrilecek
- * char template harfleri küçültme ekle lowercase
- * */
+#include "Apps/MainApp.h"
 int main() {
-    auto list = InitializableHomeworkList().runList();
-    return 0;
+    MainApp * app = new MainApp();
+    return app->run();
 }
-

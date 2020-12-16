@@ -59,19 +59,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/129/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/137/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/129/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/137/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roy/CLionProjects/Odevler/HomeworkTemplate
+CMAKE_SOURCE_DIR = /home/roy/CLionProjects/Odevler/Train
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roy/CLionProjects/Odevler/HomeworkTemplate/cmake-build-debug
+CMAKE_BINARY_DIR = /home/roy/CLionProjects/Odevler/Train/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = /home/roy/CLionProjects/Odevler/HomeworkTemplate/cmake-build-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/129/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/137/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -90,7 +90,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/129/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/137/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roy/CLionProjects/Odevler/HomeworkTemplate/cmake-build-debug/CMakeFiles /home/roy/CLionProjects/Odevler/HomeworkTemplate/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles /home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roy/CLionProjects/Odevler/HomeworkTemplate/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,152 +131,557 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named HomeworkTemplate
+# Target rules for targets named Train
 
 # Build rule for target.
-HomeworkTemplate: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HomeworkTemplate
-.PHONY : HomeworkTemplate
+Train: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Train
+.PHONY : Train
 
 # fast build rule for target.
-HomeworkTemplate/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HomeworkTemplate.dir/build.make CMakeFiles/HomeworkTemplate.dir/build
-.PHONY : HomeworkTemplate/fast
+Train/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/build
+.PHONY : Train/fast
 
-Classes/Vector3D.o: Classes/Vector3D.cpp.o
+Apps/BookApp.o: Apps/BookApp.cpp.o
 
-.PHONY : Classes/Vector3D.o
-
-# target to build an object file
-Classes/Vector3D.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HomeworkTemplate.dir/build.make CMakeFiles/HomeworkTemplate.dir/Classes/Vector3D.cpp.o
-.PHONY : Classes/Vector3D.cpp.o
-
-Classes/Vector3D.i: Classes/Vector3D.cpp.i
-
-.PHONY : Classes/Vector3D.i
-
-# target to preprocess a source file
-Classes/Vector3D.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HomeworkTemplate.dir/build.make CMakeFiles/HomeworkTemplate.dir/Classes/Vector3D.cpp.i
-.PHONY : Classes/Vector3D.cpp.i
-
-Classes/Vector3D.s: Classes/Vector3D.cpp.s
-
-.PHONY : Classes/Vector3D.s
-
-# target to generate assembly for a file
-Classes/Vector3D.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HomeworkTemplate.dir/build.make CMakeFiles/HomeworkTemplate.dir/Classes/Vector3D.cpp.s
-.PHONY : Classes/Vector3D.cpp.s
-
-Core/HomeworkInterface.o: Core/HomeworkInterface.cpp.o
-
-.PHONY : Core/HomeworkInterface.o
+.PHONY : Apps/BookApp.o
 
 # target to build an object file
-Core/HomeworkInterface.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HomeworkTemplate.dir/build.make CMakeFiles/HomeworkTemplate.dir/Core/HomeworkInterface.cpp.o
-.PHONY : Core/HomeworkInterface.cpp.o
+Apps/BookApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Apps/BookApp.cpp.o
+.PHONY : Apps/BookApp.cpp.o
 
-Core/HomeworkInterface.i: Core/HomeworkInterface.cpp.i
+Apps/BookApp.i: Apps/BookApp.cpp.i
 
-.PHONY : Core/HomeworkInterface.i
+.PHONY : Apps/BookApp.i
 
 # target to preprocess a source file
-Core/HomeworkInterface.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HomeworkTemplate.dir/build.make CMakeFiles/HomeworkTemplate.dir/Core/HomeworkInterface.cpp.i
-.PHONY : Core/HomeworkInterface.cpp.i
+Apps/BookApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Apps/BookApp.cpp.i
+.PHONY : Apps/BookApp.cpp.i
 
-Core/HomeworkInterface.s: Core/HomeworkInterface.cpp.s
+Apps/BookApp.s: Apps/BookApp.cpp.s
 
-.PHONY : Core/HomeworkInterface.s
+.PHONY : Apps/BookApp.s
 
 # target to generate assembly for a file
-Core/HomeworkInterface.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HomeworkTemplate.dir/build.make CMakeFiles/HomeworkTemplate.dir/Core/HomeworkInterface.cpp.s
-.PHONY : Core/HomeworkInterface.cpp.s
+Apps/BookApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Apps/BookApp.cpp.s
+.PHONY : Apps/BookApp.cpp.s
 
-Homeworks/HomeworkOne.o: Homeworks/HomeworkOne.cpp.o
+Apps/MainApp.o: Apps/MainApp.cpp.o
 
-.PHONY : Homeworks/HomeworkOne.o
+.PHONY : Apps/MainApp.o
 
 # target to build an object file
-Homeworks/HomeworkOne.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HomeworkTemplate.dir/build.make CMakeFiles/HomeworkTemplate.dir/Homeworks/HomeworkOne.cpp.o
-.PHONY : Homeworks/HomeworkOne.cpp.o
+Apps/MainApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Apps/MainApp.cpp.o
+.PHONY : Apps/MainApp.cpp.o
 
-Homeworks/HomeworkOne.i: Homeworks/HomeworkOne.cpp.i
+Apps/MainApp.i: Apps/MainApp.cpp.i
 
-.PHONY : Homeworks/HomeworkOne.i
+.PHONY : Apps/MainApp.i
 
 # target to preprocess a source file
-Homeworks/HomeworkOne.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HomeworkTemplate.dir/build.make CMakeFiles/HomeworkTemplate.dir/Homeworks/HomeworkOne.cpp.i
-.PHONY : Homeworks/HomeworkOne.cpp.i
+Apps/MainApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Apps/MainApp.cpp.i
+.PHONY : Apps/MainApp.cpp.i
 
-Homeworks/HomeworkOne.s: Homeworks/HomeworkOne.cpp.s
+Apps/MainApp.s: Apps/MainApp.cpp.s
 
-.PHONY : Homeworks/HomeworkOne.s
+.PHONY : Apps/MainApp.s
 
 # target to generate assembly for a file
-Homeworks/HomeworkOne.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HomeworkTemplate.dir/build.make CMakeFiles/HomeworkTemplate.dir/Homeworks/HomeworkOne.cpp.s
-.PHONY : Homeworks/HomeworkOne.cpp.s
+Apps/MainApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Apps/MainApp.cpp.s
+.PHONY : Apps/MainApp.cpp.s
 
-Homeworks/HomeworkTwo.o: Homeworks/HomeworkTwo.cpp.o
+Apps/MobileApp.o: Apps/MobileApp.cpp.o
 
-.PHONY : Homeworks/HomeworkTwo.o
+.PHONY : Apps/MobileApp.o
 
 # target to build an object file
-Homeworks/HomeworkTwo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HomeworkTemplate.dir/build.make CMakeFiles/HomeworkTemplate.dir/Homeworks/HomeworkTwo.cpp.o
-.PHONY : Homeworks/HomeworkTwo.cpp.o
+Apps/MobileApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Apps/MobileApp.cpp.o
+.PHONY : Apps/MobileApp.cpp.o
 
-Homeworks/HomeworkTwo.i: Homeworks/HomeworkTwo.cpp.i
+Apps/MobileApp.i: Apps/MobileApp.cpp.i
 
-.PHONY : Homeworks/HomeworkTwo.i
+.PHONY : Apps/MobileApp.i
 
 # target to preprocess a source file
-Homeworks/HomeworkTwo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HomeworkTemplate.dir/build.make CMakeFiles/HomeworkTemplate.dir/Homeworks/HomeworkTwo.cpp.i
-.PHONY : Homeworks/HomeworkTwo.cpp.i
+Apps/MobileApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Apps/MobileApp.cpp.i
+.PHONY : Apps/MobileApp.cpp.i
 
-Homeworks/HomeworkTwo.s: Homeworks/HomeworkTwo.cpp.s
+Apps/MobileApp.s: Apps/MobileApp.cpp.s
 
-.PHONY : Homeworks/HomeworkTwo.s
+.PHONY : Apps/MobileApp.s
 
 # target to generate assembly for a file
-Homeworks/HomeworkTwo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HomeworkTemplate.dir/build.make CMakeFiles/HomeworkTemplate.dir/Homeworks/HomeworkTwo.cpp.s
-.PHONY : Homeworks/HomeworkTwo.cpp.s
+Apps/MobileApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Apps/MobileApp.cpp.s
+.PHONY : Apps/MobileApp.cpp.s
 
-config/InitializableHomeworkList.o: config/InitializableHomeworkList.cpp.o
+Book/Book.o: Book/Book.cpp.o
 
-.PHONY : config/InitializableHomeworkList.o
+.PHONY : Book/Book.o
 
 # target to build an object file
-config/InitializableHomeworkList.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HomeworkTemplate.dir/build.make CMakeFiles/HomeworkTemplate.dir/config/InitializableHomeworkList.cpp.o
-.PHONY : config/InitializableHomeworkList.cpp.o
+Book/Book.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Book/Book.cpp.o
+.PHONY : Book/Book.cpp.o
 
-config/InitializableHomeworkList.i: config/InitializableHomeworkList.cpp.i
+Book/Book.i: Book/Book.cpp.i
 
-.PHONY : config/InitializableHomeworkList.i
+.PHONY : Book/Book.i
 
 # target to preprocess a source file
-config/InitializableHomeworkList.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HomeworkTemplate.dir/build.make CMakeFiles/HomeworkTemplate.dir/config/InitializableHomeworkList.cpp.i
-.PHONY : config/InitializableHomeworkList.cpp.i
+Book/Book.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Book/Book.cpp.i
+.PHONY : Book/Book.cpp.i
 
-config/InitializableHomeworkList.s: config/InitializableHomeworkList.cpp.s
+Book/Book.s: Book/Book.cpp.s
 
-.PHONY : config/InitializableHomeworkList.s
+.PHONY : Book/Book.s
 
 # target to generate assembly for a file
-config/InitializableHomeworkList.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HomeworkTemplate.dir/build.make CMakeFiles/HomeworkTemplate.dir/config/InitializableHomeworkList.cpp.s
-.PHONY : config/InitializableHomeworkList.cpp.s
+Book/Book.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Book/Book.cpp.s
+.PHONY : Book/Book.cpp.s
+
+Book/Page.o: Book/Page.cpp.o
+
+.PHONY : Book/Page.o
+
+# target to build an object file
+Book/Page.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Book/Page.cpp.o
+.PHONY : Book/Page.cpp.o
+
+Book/Page.i: Book/Page.cpp.i
+
+.PHONY : Book/Page.i
+
+# target to preprocess a source file
+Book/Page.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Book/Page.cpp.i
+.PHONY : Book/Page.cpp.i
+
+Book/Page.s: Book/Page.cpp.s
+
+.PHONY : Book/Page.s
+
+# target to generate assembly for a file
+Book/Page.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Book/Page.cpp.s
+.PHONY : Book/Page.cpp.s
+
+Book/Question.o: Book/Question.cpp.o
+
+.PHONY : Book/Question.o
+
+# target to build an object file
+Book/Question.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Book/Question.cpp.o
+.PHONY : Book/Question.cpp.o
+
+Book/Question.i: Book/Question.cpp.i
+
+.PHONY : Book/Question.i
+
+# target to preprocess a source file
+Book/Question.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Book/Question.cpp.i
+.PHONY : Book/Question.cpp.i
+
+Book/Question.s: Book/Question.cpp.s
+
+.PHONY : Book/Question.s
+
+# target to generate assembly for a file
+Book/Question.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Book/Question.cpp.s
+.PHONY : Book/Question.cpp.s
+
+Book/Section.o: Book/Section.cpp.o
+
+.PHONY : Book/Section.o
+
+# target to build an object file
+Book/Section.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Book/Section.cpp.o
+.PHONY : Book/Section.cpp.o
+
+Book/Section.i: Book/Section.cpp.i
+
+.PHONY : Book/Section.i
+
+# target to preprocess a source file
+Book/Section.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Book/Section.cpp.i
+.PHONY : Book/Section.cpp.i
+
+Book/Section.s: Book/Section.cpp.s
+
+.PHONY : Book/Section.s
+
+# target to generate assembly for a file
+Book/Section.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Book/Section.cpp.s
+.PHONY : Book/Section.cpp.s
+
+Commands/ComplexCommand.o: Commands/ComplexCommand.cpp.o
+
+.PHONY : Commands/ComplexCommand.o
+
+# target to build an object file
+Commands/ComplexCommand.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Commands/ComplexCommand.cpp.o
+.PHONY : Commands/ComplexCommand.cpp.o
+
+Commands/ComplexCommand.i: Commands/ComplexCommand.cpp.i
+
+.PHONY : Commands/ComplexCommand.i
+
+# target to preprocess a source file
+Commands/ComplexCommand.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Commands/ComplexCommand.cpp.i
+.PHONY : Commands/ComplexCommand.cpp.i
+
+Commands/ComplexCommand.s: Commands/ComplexCommand.cpp.s
+
+.PHONY : Commands/ComplexCommand.s
+
+# target to generate assembly for a file
+Commands/ComplexCommand.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Commands/ComplexCommand.cpp.s
+.PHONY : Commands/ComplexCommand.cpp.s
+
+Commands/ExitCommand.o: Commands/ExitCommand.cpp.o
+
+.PHONY : Commands/ExitCommand.o
+
+# target to build an object file
+Commands/ExitCommand.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Commands/ExitCommand.cpp.o
+.PHONY : Commands/ExitCommand.cpp.o
+
+Commands/ExitCommand.i: Commands/ExitCommand.cpp.i
+
+.PHONY : Commands/ExitCommand.i
+
+# target to preprocess a source file
+Commands/ExitCommand.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Commands/ExitCommand.cpp.i
+.PHONY : Commands/ExitCommand.cpp.i
+
+Commands/ExitCommand.s: Commands/ExitCommand.cpp.s
+
+.PHONY : Commands/ExitCommand.s
+
+# target to generate assembly for a file
+Commands/ExitCommand.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Commands/ExitCommand.cpp.s
+.PHONY : Commands/ExitCommand.cpp.s
+
+Commands/NextPageCommand.o: Commands/NextPageCommand.cpp.o
+
+.PHONY : Commands/NextPageCommand.o
+
+# target to build an object file
+Commands/NextPageCommand.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Commands/NextPageCommand.cpp.o
+.PHONY : Commands/NextPageCommand.cpp.o
+
+Commands/NextPageCommand.i: Commands/NextPageCommand.cpp.i
+
+.PHONY : Commands/NextPageCommand.i
+
+# target to preprocess a source file
+Commands/NextPageCommand.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Commands/NextPageCommand.cpp.i
+.PHONY : Commands/NextPageCommand.cpp.i
+
+Commands/NextPageCommand.s: Commands/NextPageCommand.cpp.s
+
+.PHONY : Commands/NextPageCommand.s
+
+# target to generate assembly for a file
+Commands/NextPageCommand.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Commands/NextPageCommand.cpp.s
+.PHONY : Commands/NextPageCommand.cpp.s
+
+Commands/RunAppCommand.o: Commands/RunAppCommand.cpp.o
+
+.PHONY : Commands/RunAppCommand.o
+
+# target to build an object file
+Commands/RunAppCommand.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Commands/RunAppCommand.cpp.o
+.PHONY : Commands/RunAppCommand.cpp.o
+
+Commands/RunAppCommand.i: Commands/RunAppCommand.cpp.i
+
+.PHONY : Commands/RunAppCommand.i
+
+# target to preprocess a source file
+Commands/RunAppCommand.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Commands/RunAppCommand.cpp.i
+.PHONY : Commands/RunAppCommand.cpp.i
+
+Commands/RunAppCommand.s: Commands/RunAppCommand.cpp.s
+
+.PHONY : Commands/RunAppCommand.s
+
+# target to generate assembly for a file
+Commands/RunAppCommand.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Commands/RunAppCommand.cpp.s
+.PHONY : Commands/RunAppCommand.cpp.s
+
+Core/App.o: Core/App.cpp.o
+
+.PHONY : Core/App.o
+
+# target to build an object file
+Core/App.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Core/App.cpp.o
+.PHONY : Core/App.cpp.o
+
+Core/App.i: Core/App.cpp.i
+
+.PHONY : Core/App.i
+
+# target to preprocess a source file
+Core/App.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Core/App.cpp.i
+.PHONY : Core/App.cpp.i
+
+Core/App.s: Core/App.cpp.s
+
+.PHONY : Core/App.s
+
+# target to generate assembly for a file
+Core/App.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Core/App.cpp.s
+.PHONY : Core/App.cpp.s
+
+Core/Command.o: Core/Command.cpp.o
+
+.PHONY : Core/Command.o
+
+# target to build an object file
+Core/Command.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Core/Command.cpp.o
+.PHONY : Core/Command.cpp.o
+
+Core/Command.i: Core/Command.cpp.i
+
+.PHONY : Core/Command.i
+
+# target to preprocess a source file
+Core/Command.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Core/Command.cpp.i
+.PHONY : Core/Command.cpp.i
+
+Core/Command.s: Core/Command.cpp.s
+
+.PHONY : Core/Command.s
+
+# target to generate assembly for a file
+Core/Command.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Core/Command.cpp.s
+.PHONY : Core/Command.cpp.s
+
+Core/FlyWeight.o: Core/FlyWeight.cpp.o
+
+.PHONY : Core/FlyWeight.o
+
+# target to build an object file
+Core/FlyWeight.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Core/FlyWeight.cpp.o
+.PHONY : Core/FlyWeight.cpp.o
+
+Core/FlyWeight.i: Core/FlyWeight.cpp.i
+
+.PHONY : Core/FlyWeight.i
+
+# target to preprocess a source file
+Core/FlyWeight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Core/FlyWeight.cpp.i
+.PHONY : Core/FlyWeight.cpp.i
+
+Core/FlyWeight.s: Core/FlyWeight.cpp.s
+
+.PHONY : Core/FlyWeight.s
+
+# target to generate assembly for a file
+Core/FlyWeight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Core/FlyWeight.cpp.s
+.PHONY : Core/FlyWeight.cpp.s
+
+Core/Receiver.o: Core/Receiver.cpp.o
+
+.PHONY : Core/Receiver.o
+
+# target to build an object file
+Core/Receiver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Core/Receiver.cpp.o
+.PHONY : Core/Receiver.cpp.o
+
+Core/Receiver.i: Core/Receiver.cpp.i
+
+.PHONY : Core/Receiver.i
+
+# target to preprocess a source file
+Core/Receiver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Core/Receiver.cpp.i
+.PHONY : Core/Receiver.cpp.i
+
+Core/Receiver.s: Core/Receiver.cpp.s
+
+.PHONY : Core/Receiver.s
+
+# target to generate assembly for a file
+Core/Receiver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Core/Receiver.cpp.s
+.PHONY : Core/Receiver.cpp.s
+
+Core/SharedState.o: Core/SharedState.cpp.o
+
+.PHONY : Core/SharedState.o
+
+# target to build an object file
+Core/SharedState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Core/SharedState.cpp.o
+.PHONY : Core/SharedState.cpp.o
+
+Core/SharedState.i: Core/SharedState.cpp.i
+
+.PHONY : Core/SharedState.i
+
+# target to preprocess a source file
+Core/SharedState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Core/SharedState.cpp.i
+.PHONY : Core/SharedState.cpp.i
+
+Core/SharedState.s: Core/SharedState.cpp.s
+
+.PHONY : Core/SharedState.s
+
+# target to generate assembly for a file
+Core/SharedState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Core/SharedState.cpp.s
+.PHONY : Core/SharedState.cpp.s
+
+States/Book/BookState.o: States/Book/BookState.cpp.o
+
+.PHONY : States/Book/BookState.o
+
+# target to build an object file
+States/Book/BookState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/States/Book/BookState.cpp.o
+.PHONY : States/Book/BookState.cpp.o
+
+States/Book/BookState.i: States/Book/BookState.cpp.i
+
+.PHONY : States/Book/BookState.i
+
+# target to preprocess a source file
+States/Book/BookState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/States/Book/BookState.cpp.i
+.PHONY : States/Book/BookState.cpp.i
+
+States/Book/BookState.s: States/Book/BookState.cpp.s
+
+.PHONY : States/Book/BookState.s
+
+# target to generate assembly for a file
+States/Book/BookState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/States/Book/BookState.cpp.s
+.PHONY : States/Book/BookState.cpp.s
+
+States/Book/PageState.o: States/Book/PageState.cpp.o
+
+.PHONY : States/Book/PageState.o
+
+# target to build an object file
+States/Book/PageState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/States/Book/PageState.cpp.o
+.PHONY : States/Book/PageState.cpp.o
+
+States/Book/PageState.i: States/Book/PageState.cpp.i
+
+.PHONY : States/Book/PageState.i
+
+# target to preprocess a source file
+States/Book/PageState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/States/Book/PageState.cpp.i
+.PHONY : States/Book/PageState.cpp.i
+
+States/Book/PageState.s: States/Book/PageState.cpp.s
+
+.PHONY : States/Book/PageState.s
+
+# target to generate assembly for a file
+States/Book/PageState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/States/Book/PageState.cpp.s
+.PHONY : States/Book/PageState.cpp.s
+
+States/Book/QuestionState.o: States/Book/QuestionState.cpp.o
+
+.PHONY : States/Book/QuestionState.o
+
+# target to build an object file
+States/Book/QuestionState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/States/Book/QuestionState.cpp.o
+.PHONY : States/Book/QuestionState.cpp.o
+
+States/Book/QuestionState.i: States/Book/QuestionState.cpp.i
+
+.PHONY : States/Book/QuestionState.i
+
+# target to preprocess a source file
+States/Book/QuestionState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/States/Book/QuestionState.cpp.i
+.PHONY : States/Book/QuestionState.cpp.i
+
+States/Book/QuestionState.s: States/Book/QuestionState.cpp.s
+
+.PHONY : States/Book/QuestionState.s
+
+# target to generate assembly for a file
+States/Book/QuestionState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/States/Book/QuestionState.cpp.s
+.PHONY : States/Book/QuestionState.cpp.s
+
+States/Book/SectionState.o: States/Book/SectionState.cpp.o
+
+.PHONY : States/Book/SectionState.o
+
+# target to build an object file
+States/Book/SectionState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/States/Book/SectionState.cpp.o
+.PHONY : States/Book/SectionState.cpp.o
+
+States/Book/SectionState.i: States/Book/SectionState.cpp.i
+
+.PHONY : States/Book/SectionState.i
+
+# target to preprocess a source file
+States/Book/SectionState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/States/Book/SectionState.cpp.i
+.PHONY : States/Book/SectionState.cpp.i
+
+States/Book/SectionState.s: States/Book/SectionState.cpp.s
+
+.PHONY : States/Book/SectionState.s
+
+# target to generate assembly for a file
+States/Book/SectionState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/States/Book/SectionState.cpp.s
+.PHONY : States/Book/SectionState.cpp.s
 
 main.o: main.cpp.o
 
@@ -284,7 +689,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HomeworkTemplate.dir/build.make CMakeFiles/HomeworkTemplate.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -293,7 +698,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HomeworkTemplate.dir/build.make CMakeFiles/HomeworkTemplate.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -302,7 +707,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HomeworkTemplate.dir/build.make CMakeFiles/HomeworkTemplate.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -313,22 +718,67 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... HomeworkTemplate"
-	@echo "... Classes/Vector3D.o"
-	@echo "... Classes/Vector3D.i"
-	@echo "... Classes/Vector3D.s"
-	@echo "... Core/HomeworkInterface.o"
-	@echo "... Core/HomeworkInterface.i"
-	@echo "... Core/HomeworkInterface.s"
-	@echo "... Homeworks/HomeworkOne.o"
-	@echo "... Homeworks/HomeworkOne.i"
-	@echo "... Homeworks/HomeworkOne.s"
-	@echo "... Homeworks/HomeworkTwo.o"
-	@echo "... Homeworks/HomeworkTwo.i"
-	@echo "... Homeworks/HomeworkTwo.s"
-	@echo "... config/InitializableHomeworkList.o"
-	@echo "... config/InitializableHomeworkList.i"
-	@echo "... config/InitializableHomeworkList.s"
+	@echo "... Train"
+	@echo "... Apps/BookApp.o"
+	@echo "... Apps/BookApp.i"
+	@echo "... Apps/BookApp.s"
+	@echo "... Apps/MainApp.o"
+	@echo "... Apps/MainApp.i"
+	@echo "... Apps/MainApp.s"
+	@echo "... Apps/MobileApp.o"
+	@echo "... Apps/MobileApp.i"
+	@echo "... Apps/MobileApp.s"
+	@echo "... Book/Book.o"
+	@echo "... Book/Book.i"
+	@echo "... Book/Book.s"
+	@echo "... Book/Page.o"
+	@echo "... Book/Page.i"
+	@echo "... Book/Page.s"
+	@echo "... Book/Question.o"
+	@echo "... Book/Question.i"
+	@echo "... Book/Question.s"
+	@echo "... Book/Section.o"
+	@echo "... Book/Section.i"
+	@echo "... Book/Section.s"
+	@echo "... Commands/ComplexCommand.o"
+	@echo "... Commands/ComplexCommand.i"
+	@echo "... Commands/ComplexCommand.s"
+	@echo "... Commands/ExitCommand.o"
+	@echo "... Commands/ExitCommand.i"
+	@echo "... Commands/ExitCommand.s"
+	@echo "... Commands/NextPageCommand.o"
+	@echo "... Commands/NextPageCommand.i"
+	@echo "... Commands/NextPageCommand.s"
+	@echo "... Commands/RunAppCommand.o"
+	@echo "... Commands/RunAppCommand.i"
+	@echo "... Commands/RunAppCommand.s"
+	@echo "... Core/App.o"
+	@echo "... Core/App.i"
+	@echo "... Core/App.s"
+	@echo "... Core/Command.o"
+	@echo "... Core/Command.i"
+	@echo "... Core/Command.s"
+	@echo "... Core/FlyWeight.o"
+	@echo "... Core/FlyWeight.i"
+	@echo "... Core/FlyWeight.s"
+	@echo "... Core/Receiver.o"
+	@echo "... Core/Receiver.i"
+	@echo "... Core/Receiver.s"
+	@echo "... Core/SharedState.o"
+	@echo "... Core/SharedState.i"
+	@echo "... Core/SharedState.s"
+	@echo "... States/Book/BookState.o"
+	@echo "... States/Book/BookState.i"
+	@echo "... States/Book/BookState.s"
+	@echo "... States/Book/PageState.o"
+	@echo "... States/Book/PageState.i"
+	@echo "... States/Book/PageState.s"
+	@echo "... States/Book/QuestionState.o"
+	@echo "... States/Book/QuestionState.i"
+	@echo "... States/Book/QuestionState.s"
+	@echo "... States/Book/SectionState.o"
+	@echo "... States/Book/SectionState.i"
+	@echo "... States/Book/SectionState.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
