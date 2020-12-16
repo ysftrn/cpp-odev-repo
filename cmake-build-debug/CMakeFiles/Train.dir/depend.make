@@ -7,6 +7,7 @@ CMakeFiles/Train.dir/Apps/BookApp.cpp.o: ../Book/Book.h
 CMakeFiles/Train.dir/Apps/BookApp.cpp.o: ../Book/Page.h
 CMakeFiles/Train.dir/Apps/BookApp.cpp.o: ../Book/Question.h
 CMakeFiles/Train.dir/Apps/BookApp.cpp.o: ../Book/Section.h
+CMakeFiles/Train.dir/Apps/BookApp.cpp.o: ../Commands/CreateBookCommand.h
 CMakeFiles/Train.dir/Apps/BookApp.cpp.o: ../Commands/ExitCommand.h
 CMakeFiles/Train.dir/Apps/BookApp.cpp.o: ../Core/App.h
 CMakeFiles/Train.dir/Apps/BookApp.cpp.o: ../Core/Command.h
@@ -68,6 +69,20 @@ CMakeFiles/Train.dir/Commands/ComplexCommand.cpp.o: ../Core/App.h
 CMakeFiles/Train.dir/Commands/ComplexCommand.cpp.o: ../Core/Command.h
 CMakeFiles/Train.dir/Commands/ComplexCommand.cpp.o: ../Core/Receiver.h
 
+CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.o: ../Book/Book.h
+CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.o: ../Book/Page.h
+CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.o: ../Book/Question.h
+CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.o: ../Book/Section.h
+CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.o: ../Commands/CreateBookCommand.cpp
+CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.o: ../Commands/CreateBookCommand.h
+CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.o: ../Core/App.h
+CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.o: ../Core/Command.h
+CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.o: ../Core/SharedState.h
+CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.o: ../States/Book/BookState.h
+CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.o: ../States/Book/PageState.h
+CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.o: ../States/Book/QuestionState.h
+CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.o: ../States/Book/SectionState.h
+
 CMakeFiles/Train.dir/Commands/ExitCommand.cpp.o: ../Commands/ExitCommand.cpp
 CMakeFiles/Train.dir/Commands/ExitCommand.cpp.o: ../Commands/ExitCommand.h
 CMakeFiles/Train.dir/Commands/ExitCommand.cpp.o: ../Core/App.h
@@ -75,6 +90,7 @@ CMakeFiles/Train.dir/Commands/ExitCommand.cpp.o: ../Core/Command.h
 
 CMakeFiles/Train.dir/Commands/NextPageCommand.cpp.o: ../Commands/NextPageCommand.cpp
 CMakeFiles/Train.dir/Commands/NextPageCommand.cpp.o: ../Commands/NextPageCommand.h
+CMakeFiles/Train.dir/Commands/NextPageCommand.cpp.o: ../Core/App.h
 CMakeFiles/Train.dir/Commands/NextPageCommand.cpp.o: ../Core/Command.h
 
 CMakeFiles/Train.dir/Commands/RunAppCommand.cpp.o: ../Commands/RunAppCommand.cpp
@@ -87,6 +103,7 @@ CMakeFiles/Train.dir/Core/App.cpp.o: ../Core/App.cpp
 CMakeFiles/Train.dir/Core/App.cpp.o: ../Core/App.h
 CMakeFiles/Train.dir/Core/App.cpp.o: ../Core/Command.h
 
+CMakeFiles/Train.dir/Core/Command.cpp.o: ../Core/App.h
 CMakeFiles/Train.dir/Core/Command.cpp.o: ../Core/Command.cpp
 CMakeFiles/Train.dir/Core/Command.cpp.o: ../Core/Command.h
 

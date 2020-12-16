@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Train.dir/Book/Question.cpp.o"
   "CMakeFiles/Train.dir/Book/Section.cpp.o"
   "CMakeFiles/Train.dir/Commands/ComplexCommand.cpp.o"
+  "CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.o"
   "CMakeFiles/Train.dir/Commands/ExitCommand.cpp.o"
   "CMakeFiles/Train.dir/Commands/NextPageCommand.cpp.o"
   "CMakeFiles/Train.dir/Commands/RunAppCommand.cpp.o"

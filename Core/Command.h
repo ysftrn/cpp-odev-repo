@@ -5,9 +5,12 @@
 #ifndef TRAIN_COMMAND_H
 #define TRAIN_COMMAND_H
 
+#include "App.h"
+
 
 class Command {
-
+protected:
+    App * app;
 public:
     Command(){}
     virtual ~Command(){}

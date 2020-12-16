@@ -15,6 +15,7 @@ public:
     string name;
     string author;
     int totalPageNumber;
+
 };
 
 

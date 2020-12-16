@@ -9,8 +9,7 @@
 #include "../Core/App.h"
 
 class ExitCommand: public Command {
-public:
-    App * app;
+
 public:
     ExitCommand(App &app);
 

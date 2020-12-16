@@ -8,6 +8,7 @@ CMakeFiles/Train.dir/Apps/BookApp.cpp.o
  /home/roy/CLionProjects/Odevler/Train/Book/Page.h
  /home/roy/CLionProjects/Odevler/Train/Book/Question.h
  /home/roy/CLionProjects/Odevler/Train/Book/Section.h
+ /home/roy/CLionProjects/Odevler/Train/Commands/CreateBookCommand.h
  /home/roy/CLionProjects/Odevler/Train/Commands/ExitCommand.h
  /home/roy/CLionProjects/Odevler/Train/Core/App.h
  /home/roy/CLionProjects/Odevler/Train/Core/Command.h
@@ -68,6 +69,20 @@ CMakeFiles/Train.dir/Commands/ComplexCommand.cpp.o
  /home/roy/CLionProjects/Odevler/Train/Core/App.h
  /home/roy/CLionProjects/Odevler/Train/Core/Command.h
  /home/roy/CLionProjects/Odevler/Train/Core/Receiver.h
+CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.o
+ /home/roy/CLionProjects/Odevler/Train/Book/Book.h
+ /home/roy/CLionProjects/Odevler/Train/Book/Page.h
+ /home/roy/CLionProjects/Odevler/Train/Book/Question.h
+ /home/roy/CLionProjects/Odevler/Train/Book/Section.h
+ /home/roy/CLionProjects/Odevler/Train/Commands/CreateBookCommand.cpp
+ /home/roy/CLionProjects/Odevler/Train/Commands/CreateBookCommand.h
+ /home/roy/CLionProjects/Odevler/Train/Core/App.h
+ /home/roy/CLionProjects/Odevler/Train/Core/Command.h
+ /home/roy/CLionProjects/Odevler/Train/Core/SharedState.h
+ /home/roy/CLionProjects/Odevler/Train/States/Book/BookState.h
+ /home/roy/CLionProjects/Odevler/Train/States/Book/PageState.h
+ /home/roy/CLionProjects/Odevler/Train/States/Book/QuestionState.h
+ /home/roy/CLionProjects/Odevler/Train/States/Book/SectionState.h
 CMakeFiles/Train.dir/Commands/ExitCommand.cpp.o
  /home/roy/CLionProjects/Odevler/Train/Commands/ExitCommand.cpp
  /home/roy/CLionProjects/Odevler/Train/Commands/ExitCommand.h
@@ -76,6 +91,7 @@ CMakeFiles/Train.dir/Commands/ExitCommand.cpp.o
 CMakeFiles/Train.dir/Commands/NextPageCommand.cpp.o
  /home/roy/CLionProjects/Odevler/Train/Commands/NextPageCommand.cpp
  /home/roy/CLionProjects/Odevler/Train/Commands/NextPageCommand.h
+ /home/roy/CLionProjects/Odevler/Train/Core/App.h
  /home/roy/CLionProjects/Odevler/Train/Core/Command.h
 CMakeFiles/Train.dir/Commands/RunAppCommand.cpp.o
  /home/roy/CLionProjects/Odevler/Train/Commands/RunAppCommand.cpp
@@ -88,6 +104,7 @@ CMakeFiles/Train.dir/Core/App.cpp.o
  /home/roy/CLionProjects/Odevler/Train/Core/App.h
  /home/roy/CLionProjects/Odevler/Train/Core/Command.h
 CMakeFiles/Train.dir/Core/Command.cpp.o
+ /home/roy/CLionProjects/Odevler/Train/Core/App.h
  /home/roy/CLionProjects/Odevler/Train/Core/Command.cpp
  /home/roy/CLionProjects/Odevler/Train/Core/Command.h
 CMakeFiles/Train.dir/Core/FlyWeight.cpp.o

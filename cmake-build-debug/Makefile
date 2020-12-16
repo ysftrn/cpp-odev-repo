@@ -359,6 +359,33 @@ Commands/ComplexCommand.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Commands/ComplexCommand.cpp.s
 .PHONY : Commands/ComplexCommand.cpp.s
 
+Commands/CreateBookCommand.o: Commands/CreateBookCommand.cpp.o
+
+.PHONY : Commands/CreateBookCommand.o
+
+# target to build an object file
+Commands/CreateBookCommand.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.o
+.PHONY : Commands/CreateBookCommand.cpp.o
+
+Commands/CreateBookCommand.i: Commands/CreateBookCommand.cpp.i
+
+.PHONY : Commands/CreateBookCommand.i
+
+# target to preprocess a source file
+Commands/CreateBookCommand.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.i
+.PHONY : Commands/CreateBookCommand.cpp.i
+
+Commands/CreateBookCommand.s: Commands/CreateBookCommand.cpp.s
+
+.PHONY : Commands/CreateBookCommand.s
+
+# target to generate assembly for a file
+Commands/CreateBookCommand.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.s
+.PHONY : Commands/CreateBookCommand.cpp.s
+
 Commands/ExitCommand.o: Commands/ExitCommand.cpp.o
 
 .PHONY : Commands/ExitCommand.o
@@ -743,6 +770,9 @@ help:
 	@echo "... Commands/ComplexCommand.o"
 	@echo "... Commands/ComplexCommand.i"
 	@echo "... Commands/ComplexCommand.s"
+	@echo "... Commands/CreateBookCommand.o"
+	@echo "... Commands/CreateBookCommand.i"
+	@echo "... Commands/CreateBookCommand.s"
 	@echo "... Commands/ExitCommand.o"
 	@echo "... Commands/ExitCommand.i"
 	@echo "... Commands/ExitCommand.s"

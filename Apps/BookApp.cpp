@@ -5,6 +5,7 @@
 #include "BookApp.h"
 
 #include "../Commands/ExitCommand.h"
+#include "../Commands/CreateBookCommand.h"
 #include "iostream"
 
 #include "../Book/Book.h"
@@ -30,18 +31,7 @@ int BookApp::run() {
         }
 
         if(commandText == 'c'){
-
-            BookState bookOneInformation;
-            bookOneInformation.name = "Linear Algebra";
-            bookOneInformation.author = "Some one";
-            bookOneInformation.totalPageNumber = 15;
-            Book bookOne(bookOneInformation);
-
-            SectionState sectionInformation;
-            sectionInformation.name = "Section 1";
-            Section sectionOne(sectionInformation);
-            bookOne.addSection(sectionOne);
-
+            CreateBookCommand(*this).Execute();
         }
 
     }

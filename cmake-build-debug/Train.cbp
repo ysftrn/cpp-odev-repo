@@ -132,6 +132,12 @@
 		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Commands/ComplexCommand.h">
 			<Option target="Train"/>
 		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Commands/CreateBookCommand.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Commands/CreateBookCommand.h">
+			<Option target="Train"/>
+		</Unit>
 		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Commands/ExitCommand.cpp">
 			<Option target="Train"/>
 		</Unit>

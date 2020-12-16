@@ -9,8 +9,7 @@
 #include "../Core/App.h"
 
 class RunAppCommand : public Command{
-public:
-    App * app;
+
 public:
     RunAppCommand(App &app);
 
