@@ -84,10 +84,82 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/BookApp.cpp">
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Book/BookApp.cpp">
 			<Option target="Train"/>
 		</Unit>
-		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/BookApp.h">
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Book/BookApp.h">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Book/Classes/Book.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Book/Classes/Book.h">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Book/Classes/Page.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Book/Classes/Page.h">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Book/Classes/Question.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Book/Classes/Question.h">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Book/Classes/Section.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Book/Classes/Section.h">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Book/Commands/CreateBookCommand.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Book/Commands/CreateBookCommand.h">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Book/Commands/NextPageCommand.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Book/Commands/NextPageCommand.h">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Employee/Classes/BasePlusCommissionEmployee.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Employee/Classes/BasePlusCommissionEmployee.h">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Employee/Classes/CommissionEmployee.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Employee/Classes/CommissionEmployee.h">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Employee/Commands/CreateCommisionEmployeeCommand.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Employee/Commands/CreateCommisionEmployeeCommand.h">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Employee/Commands/InsertCommisionEmployeeCommand.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Employee/Commands/InsertCommisionEmployeeCommand.h">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Employee/Commands/ReadEmployeesFromFileCommand.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Employee/Commands/ReadEmployeesFromFileCommand.h">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Employee/EmployeeApp.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Employee/EmployeeApp.h">
 			<Option target="Train"/>
 		</Unit>
 		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/MainApp.cpp">
@@ -96,58 +168,16 @@
 		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/MainApp.h">
 			<Option target="Train"/>
 		</Unit>
-		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/MobileApp.cpp">
-			<Option target="Train"/>
-		</Unit>
-		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/MobileApp.h">
-			<Option target="Train"/>
-		</Unit>
-		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Book/Book.cpp">
-			<Option target="Train"/>
-		</Unit>
-		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Book/Book.h">
-			<Option target="Train"/>
-		</Unit>
-		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Book/Page.cpp">
-			<Option target="Train"/>
-		</Unit>
-		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Book/Page.h">
-			<Option target="Train"/>
-		</Unit>
-		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Book/Question.cpp">
-			<Option target="Train"/>
-		</Unit>
-		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Book/Question.h">
-			<Option target="Train"/>
-		</Unit>
-		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Book/Section.cpp">
-			<Option target="Train"/>
-		</Unit>
-		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Book/Section.h">
-			<Option target="Train"/>
-		</Unit>
 		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Commands/ComplexCommand.cpp">
 			<Option target="Train"/>
 		</Unit>
 		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Commands/ComplexCommand.h">
 			<Option target="Train"/>
 		</Unit>
-		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Commands/CreateBookCommand.cpp">
-			<Option target="Train"/>
-		</Unit>
-		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Commands/CreateBookCommand.h">
-			<Option target="Train"/>
-		</Unit>
 		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Commands/ExitCommand.cpp">
 			<Option target="Train"/>
 		</Unit>
 		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Commands/ExitCommand.h">
-			<Option target="Train"/>
-		</Unit>
-		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Commands/NextPageCommand.cpp">
-			<Option target="Train"/>
-		</Unit>
-		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Commands/NextPageCommand.h">
 			<Option target="Train"/>
 		</Unit>
 		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Commands/RunAppCommand.cpp">

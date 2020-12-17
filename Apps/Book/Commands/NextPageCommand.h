@@ -5,10 +5,10 @@
 #ifndef TRAIN_NEXTPAGECOMMAND_H
 #define TRAIN_NEXTPAGECOMMAND_H
 
-#include "../Core/Command.h"
+#include "../../../Core/Command.h"
 
 class NextPageCommand : public Command {
-    void Execute() const override;
+    void Execute()  override;
 };
 
 

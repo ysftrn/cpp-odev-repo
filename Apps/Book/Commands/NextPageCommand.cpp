@@ -4,6 +4,6 @@
 
 #include "NextPageCommand.h"
 #include "iostream"
-void NextPageCommand::Execute() const {
+void NextPageCommand::Execute()  {
     std::cout << "NextPageCommand: See, I can do simple things like printing" << std::endl;
 }

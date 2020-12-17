@@ -4,11 +4,11 @@
 
 #include "BookApp.h"
 
-#include "../Commands/ExitCommand.h"
-#include "../Commands/CreateBookCommand.h"
+#include "../../Commands/ExitCommand.h"
+#include "Commands/CreateBookCommand.h"
 #include "iostream"
 
-#include "../Book/Book.h"
+#include "Classes/Book.h"
 
 using namespace std;
 

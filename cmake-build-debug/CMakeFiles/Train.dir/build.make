@@ -155,31 +155,31 @@ CMakeFiles/Train.dir/Core/SharedState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Core/SharedState.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Core/SharedState.cpp -o CMakeFiles/Train.dir/Core/SharedState.cpp.s
 
-CMakeFiles/Train.dir/Book/Book.cpp.o: CMakeFiles/Train.dir/flags.make
-CMakeFiles/Train.dir/Book/Book.cpp.o: ../Book/Book.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Train.dir/Book/Book.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Book/Book.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Book/Book.cpp
+CMakeFiles/Train.dir/Apps/Book/Classes/Book.cpp.o: CMakeFiles/Train.dir/flags.make
+CMakeFiles/Train.dir/Apps/Book/Classes/Book.cpp.o: ../Apps/Book/Classes/Book.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Train.dir/Apps/Book/Classes/Book.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Apps/Book/Classes/Book.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Apps/Book/Classes/Book.cpp
 
-CMakeFiles/Train.dir/Book/Book.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Book/Book.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Book/Book.cpp > CMakeFiles/Train.dir/Book/Book.cpp.i
+CMakeFiles/Train.dir/Apps/Book/Classes/Book.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Apps/Book/Classes/Book.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Apps/Book/Classes/Book.cpp > CMakeFiles/Train.dir/Apps/Book/Classes/Book.cpp.i
 
-CMakeFiles/Train.dir/Book/Book.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Book/Book.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Book/Book.cpp -o CMakeFiles/Train.dir/Book/Book.cpp.s
+CMakeFiles/Train.dir/Apps/Book/Classes/Book.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Apps/Book/Classes/Book.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Apps/Book/Classes/Book.cpp -o CMakeFiles/Train.dir/Apps/Book/Classes/Book.cpp.s
 
-CMakeFiles/Train.dir/Commands/NextPageCommand.cpp.o: CMakeFiles/Train.dir/flags.make
-CMakeFiles/Train.dir/Commands/NextPageCommand.cpp.o: ../Commands/NextPageCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Train.dir/Commands/NextPageCommand.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Commands/NextPageCommand.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Commands/NextPageCommand.cpp
+CMakeFiles/Train.dir/Apps/Book/Commands/NextPageCommand.cpp.o: CMakeFiles/Train.dir/flags.make
+CMakeFiles/Train.dir/Apps/Book/Commands/NextPageCommand.cpp.o: ../Apps/Book/Commands/NextPageCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Train.dir/Apps/Book/Commands/NextPageCommand.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Apps/Book/Commands/NextPageCommand.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Apps/Book/Commands/NextPageCommand.cpp
 
-CMakeFiles/Train.dir/Commands/NextPageCommand.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Commands/NextPageCommand.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Commands/NextPageCommand.cpp > CMakeFiles/Train.dir/Commands/NextPageCommand.cpp.i
+CMakeFiles/Train.dir/Apps/Book/Commands/NextPageCommand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Apps/Book/Commands/NextPageCommand.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Apps/Book/Commands/NextPageCommand.cpp > CMakeFiles/Train.dir/Apps/Book/Commands/NextPageCommand.cpp.i
 
-CMakeFiles/Train.dir/Commands/NextPageCommand.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Commands/NextPageCommand.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Commands/NextPageCommand.cpp -o CMakeFiles/Train.dir/Commands/NextPageCommand.cpp.s
+CMakeFiles/Train.dir/Apps/Book/Commands/NextPageCommand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Apps/Book/Commands/NextPageCommand.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Apps/Book/Commands/NextPageCommand.cpp -o CMakeFiles/Train.dir/Apps/Book/Commands/NextPageCommand.cpp.s
 
 CMakeFiles/Train.dir/Commands/ComplexCommand.cpp.o: CMakeFiles/Train.dir/flags.make
 CMakeFiles/Train.dir/Commands/ComplexCommand.cpp.o: ../Commands/ComplexCommand.cpp
@@ -207,35 +207,22 @@ CMakeFiles/Train.dir/Commands/ExitCommand.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Commands/ExitCommand.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Commands/ExitCommand.cpp -o CMakeFiles/Train.dir/Commands/ExitCommand.cpp.s
 
-CMakeFiles/Train.dir/Apps/BookApp.cpp.o: CMakeFiles/Train.dir/flags.make
-CMakeFiles/Train.dir/Apps/BookApp.cpp.o: ../Apps/BookApp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Train.dir/Apps/BookApp.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Apps/BookApp.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Apps/BookApp.cpp
+CMakeFiles/Train.dir/Apps/Book/BookApp.cpp.o: CMakeFiles/Train.dir/flags.make
+CMakeFiles/Train.dir/Apps/Book/BookApp.cpp.o: ../Apps/Book/BookApp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Train.dir/Apps/Book/BookApp.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Apps/Book/BookApp.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Apps/Book/BookApp.cpp
 
-CMakeFiles/Train.dir/Apps/BookApp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Apps/BookApp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Apps/BookApp.cpp > CMakeFiles/Train.dir/Apps/BookApp.cpp.i
+CMakeFiles/Train.dir/Apps/Book/BookApp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Apps/Book/BookApp.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Apps/Book/BookApp.cpp > CMakeFiles/Train.dir/Apps/Book/BookApp.cpp.i
 
-CMakeFiles/Train.dir/Apps/BookApp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Apps/BookApp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Apps/BookApp.cpp -o CMakeFiles/Train.dir/Apps/BookApp.cpp.s
-
-CMakeFiles/Train.dir/Apps/MobileApp.cpp.o: CMakeFiles/Train.dir/flags.make
-CMakeFiles/Train.dir/Apps/MobileApp.cpp.o: ../Apps/MobileApp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Train.dir/Apps/MobileApp.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Apps/MobileApp.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Apps/MobileApp.cpp
-
-CMakeFiles/Train.dir/Apps/MobileApp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Apps/MobileApp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Apps/MobileApp.cpp > CMakeFiles/Train.dir/Apps/MobileApp.cpp.i
-
-CMakeFiles/Train.dir/Apps/MobileApp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Apps/MobileApp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Apps/MobileApp.cpp -o CMakeFiles/Train.dir/Apps/MobileApp.cpp.s
+CMakeFiles/Train.dir/Apps/Book/BookApp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Apps/Book/BookApp.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Apps/Book/BookApp.cpp -o CMakeFiles/Train.dir/Apps/Book/BookApp.cpp.s
 
 CMakeFiles/Train.dir/Apps/MainApp.cpp.o: CMakeFiles/Train.dir/flags.make
 CMakeFiles/Train.dir/Apps/MainApp.cpp.o: ../Apps/MainApp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Train.dir/Apps/MainApp.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Train.dir/Apps/MainApp.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Apps/MainApp.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Apps/MainApp.cpp
 
 CMakeFiles/Train.dir/Apps/MainApp.cpp.i: cmake_force
@@ -248,7 +235,7 @@ CMakeFiles/Train.dir/Apps/MainApp.cpp.s: cmake_force
 
 CMakeFiles/Train.dir/Commands/RunAppCommand.cpp.o: CMakeFiles/Train.dir/flags.make
 CMakeFiles/Train.dir/Commands/RunAppCommand.cpp.o: ../Commands/RunAppCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Train.dir/Commands/RunAppCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Train.dir/Commands/RunAppCommand.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Commands/RunAppCommand.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Commands/RunAppCommand.cpp
 
 CMakeFiles/Train.dir/Commands/RunAppCommand.cpp.i: cmake_force
@@ -259,48 +246,48 @@ CMakeFiles/Train.dir/Commands/RunAppCommand.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Commands/RunAppCommand.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Commands/RunAppCommand.cpp -o CMakeFiles/Train.dir/Commands/RunAppCommand.cpp.s
 
-CMakeFiles/Train.dir/Book/Section.cpp.o: CMakeFiles/Train.dir/flags.make
-CMakeFiles/Train.dir/Book/Section.cpp.o: ../Book/Section.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Train.dir/Book/Section.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Book/Section.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Book/Section.cpp
+CMakeFiles/Train.dir/Apps/Book/Classes/Section.cpp.o: CMakeFiles/Train.dir/flags.make
+CMakeFiles/Train.dir/Apps/Book/Classes/Section.cpp.o: ../Apps/Book/Classes/Section.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Train.dir/Apps/Book/Classes/Section.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Apps/Book/Classes/Section.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Apps/Book/Classes/Section.cpp
 
-CMakeFiles/Train.dir/Book/Section.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Book/Section.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Book/Section.cpp > CMakeFiles/Train.dir/Book/Section.cpp.i
+CMakeFiles/Train.dir/Apps/Book/Classes/Section.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Apps/Book/Classes/Section.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Apps/Book/Classes/Section.cpp > CMakeFiles/Train.dir/Apps/Book/Classes/Section.cpp.i
 
-CMakeFiles/Train.dir/Book/Section.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Book/Section.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Book/Section.cpp -o CMakeFiles/Train.dir/Book/Section.cpp.s
+CMakeFiles/Train.dir/Apps/Book/Classes/Section.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Apps/Book/Classes/Section.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Apps/Book/Classes/Section.cpp -o CMakeFiles/Train.dir/Apps/Book/Classes/Section.cpp.s
 
-CMakeFiles/Train.dir/Book/Page.cpp.o: CMakeFiles/Train.dir/flags.make
-CMakeFiles/Train.dir/Book/Page.cpp.o: ../Book/Page.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Train.dir/Book/Page.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Book/Page.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Book/Page.cpp
+CMakeFiles/Train.dir/Apps/Book/Classes/Page.cpp.o: CMakeFiles/Train.dir/flags.make
+CMakeFiles/Train.dir/Apps/Book/Classes/Page.cpp.o: ../Apps/Book/Classes/Page.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Train.dir/Apps/Book/Classes/Page.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Apps/Book/Classes/Page.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Apps/Book/Classes/Page.cpp
 
-CMakeFiles/Train.dir/Book/Page.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Book/Page.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Book/Page.cpp > CMakeFiles/Train.dir/Book/Page.cpp.i
+CMakeFiles/Train.dir/Apps/Book/Classes/Page.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Apps/Book/Classes/Page.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Apps/Book/Classes/Page.cpp > CMakeFiles/Train.dir/Apps/Book/Classes/Page.cpp.i
 
-CMakeFiles/Train.dir/Book/Page.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Book/Page.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Book/Page.cpp -o CMakeFiles/Train.dir/Book/Page.cpp.s
+CMakeFiles/Train.dir/Apps/Book/Classes/Page.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Apps/Book/Classes/Page.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Apps/Book/Classes/Page.cpp -o CMakeFiles/Train.dir/Apps/Book/Classes/Page.cpp.s
 
-CMakeFiles/Train.dir/Book/Question.cpp.o: CMakeFiles/Train.dir/flags.make
-CMakeFiles/Train.dir/Book/Question.cpp.o: ../Book/Question.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Train.dir/Book/Question.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Book/Question.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Book/Question.cpp
+CMakeFiles/Train.dir/Apps/Book/Classes/Question.cpp.o: CMakeFiles/Train.dir/flags.make
+CMakeFiles/Train.dir/Apps/Book/Classes/Question.cpp.o: ../Apps/Book/Classes/Question.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Train.dir/Apps/Book/Classes/Question.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Apps/Book/Classes/Question.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Apps/Book/Classes/Question.cpp
 
-CMakeFiles/Train.dir/Book/Question.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Book/Question.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Book/Question.cpp > CMakeFiles/Train.dir/Book/Question.cpp.i
+CMakeFiles/Train.dir/Apps/Book/Classes/Question.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Apps/Book/Classes/Question.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Apps/Book/Classes/Question.cpp > CMakeFiles/Train.dir/Apps/Book/Classes/Question.cpp.i
 
-CMakeFiles/Train.dir/Book/Question.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Book/Question.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Book/Question.cpp -o CMakeFiles/Train.dir/Book/Question.cpp.s
+CMakeFiles/Train.dir/Apps/Book/Classes/Question.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Apps/Book/Classes/Question.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Apps/Book/Classes/Question.cpp -o CMakeFiles/Train.dir/Apps/Book/Classes/Question.cpp.s
 
 CMakeFiles/Train.dir/States/Book/BookState.cpp.o: CMakeFiles/Train.dir/flags.make
 CMakeFiles/Train.dir/States/Book/BookState.cpp.o: ../States/Book/BookState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Train.dir/States/Book/BookState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Train.dir/States/Book/BookState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/States/Book/BookState.cpp.o -c /home/roy/CLionProjects/Odevler/Train/States/Book/BookState.cpp
 
 CMakeFiles/Train.dir/States/Book/BookState.cpp.i: cmake_force
@@ -313,7 +300,7 @@ CMakeFiles/Train.dir/States/Book/BookState.cpp.s: cmake_force
 
 CMakeFiles/Train.dir/States/Book/SectionState.cpp.o: CMakeFiles/Train.dir/flags.make
 CMakeFiles/Train.dir/States/Book/SectionState.cpp.o: ../States/Book/SectionState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Train.dir/States/Book/SectionState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Train.dir/States/Book/SectionState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/States/Book/SectionState.cpp.o -c /home/roy/CLionProjects/Odevler/Train/States/Book/SectionState.cpp
 
 CMakeFiles/Train.dir/States/Book/SectionState.cpp.i: cmake_force
@@ -326,7 +313,7 @@ CMakeFiles/Train.dir/States/Book/SectionState.cpp.s: cmake_force
 
 CMakeFiles/Train.dir/States/Book/PageState.cpp.o: CMakeFiles/Train.dir/flags.make
 CMakeFiles/Train.dir/States/Book/PageState.cpp.o: ../States/Book/PageState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Train.dir/States/Book/PageState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Train.dir/States/Book/PageState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/States/Book/PageState.cpp.o -c /home/roy/CLionProjects/Odevler/Train/States/Book/PageState.cpp
 
 CMakeFiles/Train.dir/States/Book/PageState.cpp.i: cmake_force
@@ -339,7 +326,7 @@ CMakeFiles/Train.dir/States/Book/PageState.cpp.s: cmake_force
 
 CMakeFiles/Train.dir/States/Book/QuestionState.cpp.o: CMakeFiles/Train.dir/flags.make
 CMakeFiles/Train.dir/States/Book/QuestionState.cpp.o: ../States/Book/QuestionState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Train.dir/States/Book/QuestionState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Train.dir/States/Book/QuestionState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/States/Book/QuestionState.cpp.o -c /home/roy/CLionProjects/Odevler/Train/States/Book/QuestionState.cpp
 
 CMakeFiles/Train.dir/States/Book/QuestionState.cpp.i: cmake_force
@@ -350,18 +337,96 @@ CMakeFiles/Train.dir/States/Book/QuestionState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/States/Book/QuestionState.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/States/Book/QuestionState.cpp -o CMakeFiles/Train.dir/States/Book/QuestionState.cpp.s
 
-CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.o: CMakeFiles/Train.dir/flags.make
-CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.o: ../Commands/CreateBookCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Commands/CreateBookCommand.cpp
+CMakeFiles/Train.dir/Apps/Book/Commands/CreateBookCommand.cpp.o: CMakeFiles/Train.dir/flags.make
+CMakeFiles/Train.dir/Apps/Book/Commands/CreateBookCommand.cpp.o: ../Apps/Book/Commands/CreateBookCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Train.dir/Apps/Book/Commands/CreateBookCommand.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Apps/Book/Commands/CreateBookCommand.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Apps/Book/Commands/CreateBookCommand.cpp
 
-CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Commands/CreateBookCommand.cpp > CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.i
+CMakeFiles/Train.dir/Apps/Book/Commands/CreateBookCommand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Apps/Book/Commands/CreateBookCommand.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Apps/Book/Commands/CreateBookCommand.cpp > CMakeFiles/Train.dir/Apps/Book/Commands/CreateBookCommand.cpp.i
 
-CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Commands/CreateBookCommand.cpp -o CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.s
+CMakeFiles/Train.dir/Apps/Book/Commands/CreateBookCommand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Apps/Book/Commands/CreateBookCommand.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Apps/Book/Commands/CreateBookCommand.cpp -o CMakeFiles/Train.dir/Apps/Book/Commands/CreateBookCommand.cpp.s
+
+CMakeFiles/Train.dir/Apps/Employee/EmployeeApp.cpp.o: CMakeFiles/Train.dir/flags.make
+CMakeFiles/Train.dir/Apps/Employee/EmployeeApp.cpp.o: ../Apps/Employee/EmployeeApp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Train.dir/Apps/Employee/EmployeeApp.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Apps/Employee/EmployeeApp.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Apps/Employee/EmployeeApp.cpp
+
+CMakeFiles/Train.dir/Apps/Employee/EmployeeApp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Apps/Employee/EmployeeApp.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Apps/Employee/EmployeeApp.cpp > CMakeFiles/Train.dir/Apps/Employee/EmployeeApp.cpp.i
+
+CMakeFiles/Train.dir/Apps/Employee/EmployeeApp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Apps/Employee/EmployeeApp.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Apps/Employee/EmployeeApp.cpp -o CMakeFiles/Train.dir/Apps/Employee/EmployeeApp.cpp.s
+
+CMakeFiles/Train.dir/Apps/Employee/Classes/CommissionEmployee.cpp.o: CMakeFiles/Train.dir/flags.make
+CMakeFiles/Train.dir/Apps/Employee/Classes/CommissionEmployee.cpp.o: ../Apps/Employee/Classes/CommissionEmployee.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Train.dir/Apps/Employee/Classes/CommissionEmployee.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Apps/Employee/Classes/CommissionEmployee.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Apps/Employee/Classes/CommissionEmployee.cpp
+
+CMakeFiles/Train.dir/Apps/Employee/Classes/CommissionEmployee.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Apps/Employee/Classes/CommissionEmployee.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Apps/Employee/Classes/CommissionEmployee.cpp > CMakeFiles/Train.dir/Apps/Employee/Classes/CommissionEmployee.cpp.i
+
+CMakeFiles/Train.dir/Apps/Employee/Classes/CommissionEmployee.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Apps/Employee/Classes/CommissionEmployee.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Apps/Employee/Classes/CommissionEmployee.cpp -o CMakeFiles/Train.dir/Apps/Employee/Classes/CommissionEmployee.cpp.s
+
+CMakeFiles/Train.dir/Apps/Employee/Classes/BasePlusCommissionEmployee.cpp.o: CMakeFiles/Train.dir/flags.make
+CMakeFiles/Train.dir/Apps/Employee/Classes/BasePlusCommissionEmployee.cpp.o: ../Apps/Employee/Classes/BasePlusCommissionEmployee.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Train.dir/Apps/Employee/Classes/BasePlusCommissionEmployee.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Apps/Employee/Classes/BasePlusCommissionEmployee.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Apps/Employee/Classes/BasePlusCommissionEmployee.cpp
+
+CMakeFiles/Train.dir/Apps/Employee/Classes/BasePlusCommissionEmployee.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Apps/Employee/Classes/BasePlusCommissionEmployee.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Apps/Employee/Classes/BasePlusCommissionEmployee.cpp > CMakeFiles/Train.dir/Apps/Employee/Classes/BasePlusCommissionEmployee.cpp.i
+
+CMakeFiles/Train.dir/Apps/Employee/Classes/BasePlusCommissionEmployee.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Apps/Employee/Classes/BasePlusCommissionEmployee.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Apps/Employee/Classes/BasePlusCommissionEmployee.cpp -o CMakeFiles/Train.dir/Apps/Employee/Classes/BasePlusCommissionEmployee.cpp.s
+
+CMakeFiles/Train.dir/Apps/Employee/Commands/CreateCommisionEmployeeCommand.cpp.o: CMakeFiles/Train.dir/flags.make
+CMakeFiles/Train.dir/Apps/Employee/Commands/CreateCommisionEmployeeCommand.cpp.o: ../Apps/Employee/Commands/CreateCommisionEmployeeCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Train.dir/Apps/Employee/Commands/CreateCommisionEmployeeCommand.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Apps/Employee/Commands/CreateCommisionEmployeeCommand.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Apps/Employee/Commands/CreateCommisionEmployeeCommand.cpp
+
+CMakeFiles/Train.dir/Apps/Employee/Commands/CreateCommisionEmployeeCommand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Apps/Employee/Commands/CreateCommisionEmployeeCommand.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Apps/Employee/Commands/CreateCommisionEmployeeCommand.cpp > CMakeFiles/Train.dir/Apps/Employee/Commands/CreateCommisionEmployeeCommand.cpp.i
+
+CMakeFiles/Train.dir/Apps/Employee/Commands/CreateCommisionEmployeeCommand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Apps/Employee/Commands/CreateCommisionEmployeeCommand.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Apps/Employee/Commands/CreateCommisionEmployeeCommand.cpp -o CMakeFiles/Train.dir/Apps/Employee/Commands/CreateCommisionEmployeeCommand.cpp.s
+
+CMakeFiles/Train.dir/Apps/Employee/Commands/InsertCommisionEmployeeCommand.cpp.o: CMakeFiles/Train.dir/flags.make
+CMakeFiles/Train.dir/Apps/Employee/Commands/InsertCommisionEmployeeCommand.cpp.o: ../Apps/Employee/Commands/InsertCommisionEmployeeCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Train.dir/Apps/Employee/Commands/InsertCommisionEmployeeCommand.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Apps/Employee/Commands/InsertCommisionEmployeeCommand.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Apps/Employee/Commands/InsertCommisionEmployeeCommand.cpp
+
+CMakeFiles/Train.dir/Apps/Employee/Commands/InsertCommisionEmployeeCommand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Apps/Employee/Commands/InsertCommisionEmployeeCommand.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Apps/Employee/Commands/InsertCommisionEmployeeCommand.cpp > CMakeFiles/Train.dir/Apps/Employee/Commands/InsertCommisionEmployeeCommand.cpp.i
+
+CMakeFiles/Train.dir/Apps/Employee/Commands/InsertCommisionEmployeeCommand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Apps/Employee/Commands/InsertCommisionEmployeeCommand.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Apps/Employee/Commands/InsertCommisionEmployeeCommand.cpp -o CMakeFiles/Train.dir/Apps/Employee/Commands/InsertCommisionEmployeeCommand.cpp.s
+
+CMakeFiles/Train.dir/Apps/Employee/Commands/ReadEmployeesFromFileCommand.cpp.o: CMakeFiles/Train.dir/flags.make
+CMakeFiles/Train.dir/Apps/Employee/Commands/ReadEmployeesFromFileCommand.cpp.o: ../Apps/Employee/Commands/ReadEmployeesFromFileCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Train.dir/Apps/Employee/Commands/ReadEmployeesFromFileCommand.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Apps/Employee/Commands/ReadEmployeesFromFileCommand.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Apps/Employee/Commands/ReadEmployeesFromFileCommand.cpp
+
+CMakeFiles/Train.dir/Apps/Employee/Commands/ReadEmployeesFromFileCommand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Apps/Employee/Commands/ReadEmployeesFromFileCommand.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Apps/Employee/Commands/ReadEmployeesFromFileCommand.cpp > CMakeFiles/Train.dir/Apps/Employee/Commands/ReadEmployeesFromFileCommand.cpp.i
+
+CMakeFiles/Train.dir/Apps/Employee/Commands/ReadEmployeesFromFileCommand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Apps/Employee/Commands/ReadEmployeesFromFileCommand.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Apps/Employee/Commands/ReadEmployeesFromFileCommand.cpp -o CMakeFiles/Train.dir/Apps/Employee/Commands/ReadEmployeesFromFileCommand.cpp.s
 
 # Object files for target Train
 Train_OBJECTS = \
@@ -371,22 +436,27 @@ Train_OBJECTS = \
 "CMakeFiles/Train.dir/Core/FlyWeight.cpp.o" \
 "CMakeFiles/Train.dir/Core/Receiver.cpp.o" \
 "CMakeFiles/Train.dir/Core/SharedState.cpp.o" \
-"CMakeFiles/Train.dir/Book/Book.cpp.o" \
-"CMakeFiles/Train.dir/Commands/NextPageCommand.cpp.o" \
+"CMakeFiles/Train.dir/Apps/Book/Classes/Book.cpp.o" \
+"CMakeFiles/Train.dir/Apps/Book/Commands/NextPageCommand.cpp.o" \
 "CMakeFiles/Train.dir/Commands/ComplexCommand.cpp.o" \
 "CMakeFiles/Train.dir/Commands/ExitCommand.cpp.o" \
-"CMakeFiles/Train.dir/Apps/BookApp.cpp.o" \
-"CMakeFiles/Train.dir/Apps/MobileApp.cpp.o" \
+"CMakeFiles/Train.dir/Apps/Book/BookApp.cpp.o" \
 "CMakeFiles/Train.dir/Apps/MainApp.cpp.o" \
 "CMakeFiles/Train.dir/Commands/RunAppCommand.cpp.o" \
-"CMakeFiles/Train.dir/Book/Section.cpp.o" \
-"CMakeFiles/Train.dir/Book/Page.cpp.o" \
-"CMakeFiles/Train.dir/Book/Question.cpp.o" \
+"CMakeFiles/Train.dir/Apps/Book/Classes/Section.cpp.o" \
+"CMakeFiles/Train.dir/Apps/Book/Classes/Page.cpp.o" \
+"CMakeFiles/Train.dir/Apps/Book/Classes/Question.cpp.o" \
 "CMakeFiles/Train.dir/States/Book/BookState.cpp.o" \
 "CMakeFiles/Train.dir/States/Book/SectionState.cpp.o" \
 "CMakeFiles/Train.dir/States/Book/PageState.cpp.o" \
 "CMakeFiles/Train.dir/States/Book/QuestionState.cpp.o" \
-"CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.o"
+"CMakeFiles/Train.dir/Apps/Book/Commands/CreateBookCommand.cpp.o" \
+"CMakeFiles/Train.dir/Apps/Employee/EmployeeApp.cpp.o" \
+"CMakeFiles/Train.dir/Apps/Employee/Classes/CommissionEmployee.cpp.o" \
+"CMakeFiles/Train.dir/Apps/Employee/Classes/BasePlusCommissionEmployee.cpp.o" \
+"CMakeFiles/Train.dir/Apps/Employee/Commands/CreateCommisionEmployeeCommand.cpp.o" \
+"CMakeFiles/Train.dir/Apps/Employee/Commands/InsertCommisionEmployeeCommand.cpp.o" \
+"CMakeFiles/Train.dir/Apps/Employee/Commands/ReadEmployeesFromFileCommand.cpp.o"
 
 # External object files for target Train
 Train_EXTERNAL_OBJECTS =
@@ -397,25 +467,30 @@ Train: CMakeFiles/Train.dir/Core/Command.cpp.o
 Train: CMakeFiles/Train.dir/Core/FlyWeight.cpp.o
 Train: CMakeFiles/Train.dir/Core/Receiver.cpp.o
 Train: CMakeFiles/Train.dir/Core/SharedState.cpp.o
-Train: CMakeFiles/Train.dir/Book/Book.cpp.o
-Train: CMakeFiles/Train.dir/Commands/NextPageCommand.cpp.o
+Train: CMakeFiles/Train.dir/Apps/Book/Classes/Book.cpp.o
+Train: CMakeFiles/Train.dir/Apps/Book/Commands/NextPageCommand.cpp.o
 Train: CMakeFiles/Train.dir/Commands/ComplexCommand.cpp.o
 Train: CMakeFiles/Train.dir/Commands/ExitCommand.cpp.o
-Train: CMakeFiles/Train.dir/Apps/BookApp.cpp.o
-Train: CMakeFiles/Train.dir/Apps/MobileApp.cpp.o
+Train: CMakeFiles/Train.dir/Apps/Book/BookApp.cpp.o
 Train: CMakeFiles/Train.dir/Apps/MainApp.cpp.o
 Train: CMakeFiles/Train.dir/Commands/RunAppCommand.cpp.o
-Train: CMakeFiles/Train.dir/Book/Section.cpp.o
-Train: CMakeFiles/Train.dir/Book/Page.cpp.o
-Train: CMakeFiles/Train.dir/Book/Question.cpp.o
+Train: CMakeFiles/Train.dir/Apps/Book/Classes/Section.cpp.o
+Train: CMakeFiles/Train.dir/Apps/Book/Classes/Page.cpp.o
+Train: CMakeFiles/Train.dir/Apps/Book/Classes/Question.cpp.o
 Train: CMakeFiles/Train.dir/States/Book/BookState.cpp.o
 Train: CMakeFiles/Train.dir/States/Book/SectionState.cpp.o
 Train: CMakeFiles/Train.dir/States/Book/PageState.cpp.o
 Train: CMakeFiles/Train.dir/States/Book/QuestionState.cpp.o
-Train: CMakeFiles/Train.dir/Commands/CreateBookCommand.cpp.o
+Train: CMakeFiles/Train.dir/Apps/Book/Commands/CreateBookCommand.cpp.o
+Train: CMakeFiles/Train.dir/Apps/Employee/EmployeeApp.cpp.o
+Train: CMakeFiles/Train.dir/Apps/Employee/Classes/CommissionEmployee.cpp.o
+Train: CMakeFiles/Train.dir/Apps/Employee/Classes/BasePlusCommissionEmployee.cpp.o
+Train: CMakeFiles/Train.dir/Apps/Employee/Commands/CreateCommisionEmployeeCommand.cpp.o
+Train: CMakeFiles/Train.dir/Apps/Employee/Commands/InsertCommisionEmployeeCommand.cpp.o
+Train: CMakeFiles/Train.dir/Apps/Employee/Commands/ReadEmployeesFromFileCommand.cpp.o
 Train: CMakeFiles/Train.dir/build.make
 Train: CMakeFiles/Train.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable Train"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable Train"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Train.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -4,7 +4,7 @@
 
 #include "ExitCommand.h"
 
-void ExitCommand::Execute() const {
+void ExitCommand::Execute()  {
     if(&app != nullptr) {
         app->clearTerminalScreen();
         app->exitApp();

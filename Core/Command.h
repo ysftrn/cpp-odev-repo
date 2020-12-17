@@ -16,7 +16,7 @@ public:
     virtual ~Command(){}
 
 public:
-    virtual void Execute() const = 0;
+    virtual void Execute() = 0;
 
 };
 

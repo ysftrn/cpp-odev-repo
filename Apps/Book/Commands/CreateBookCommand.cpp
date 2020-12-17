@@ -3,9 +3,9 @@
 //
 
 #include "CreateBookCommand.h"
-#include "../Book/Book.h"
+#include "../Classes/Book.h"
 
-void CreateBookCommand::Execute() const {
+void CreateBookCommand::Execute()  {
     if(&app != nullptr) {
         BookState bookOneInformation;
         bookOneInformation.name = "Linear Algebra";

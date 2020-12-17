@@ -17,7 +17,7 @@ public:
     ComplexCommand(Receiver &rcv);
     ~ComplexCommand();
 public:
-    void Execute() const override;
+    void Execute()  override;
 };
 
 

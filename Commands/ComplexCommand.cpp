@@ -5,11 +5,9 @@
 #include "iostream"
 
 #include "ComplexCommand.h"
-#include "NextPageCommand.h"
+#include "../Apps/Book/Commands/NextPageCommand.h"
 
-void ComplexCommand::Execute() const {
-    NextPageCommand * npc = new NextPageCommand();
-    receiver->Do(*npc);
+void ComplexCommand::Execute()  {
     std::cout << "ComplexCommand: See, I can do simple things like printing" << std::endl;
 }
 

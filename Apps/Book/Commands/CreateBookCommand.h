@@ -5,17 +5,15 @@
 #ifndef TRAIN_CREATEBOOKCOMMAND_H
 #define TRAIN_CREATEBOOKCOMMAND_H
 
-#include "../Core/Command.h"
-#include "../Core/App.h"
+#include "../../../Core/Command.h"
+#include "../../../Core/App.h"
 
 class CreateBookCommand : public Command {
-public:
-    App * app;
 public:
     CreateBookCommand(App &app);
 
 public:
-    void Execute() const override;
+    void Execute()  override;
 
 };
 

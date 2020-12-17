@@ -4,7 +4,7 @@
 
 #include "RunAppCommand.h"
 
-void RunAppCommand::Execute() const {
+void RunAppCommand::Execute()  {
     if(&app != nullptr) {
         app->clearTerminalScreen();
         app->run();
