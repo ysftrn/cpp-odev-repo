@@ -107,9 +107,25 @@ CMakeFiles/Train.dir/Apps/Employee/EmployeeApp.cpp.o
  /home/roy/CLionProjects/Odevler/Train/Commands/ExitCommand.h
  /home/roy/CLionProjects/Odevler/Train/Core/App.h
  /home/roy/CLionProjects/Odevler/Train/Core/Command.h
+CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector3.cpp.o
+ /home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/Classes/Vector3.cpp
+ /home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/Classes/Vector3.h
+CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector4.cpp.o
+ /home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/Classes/Vector3.h
+ /home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/Classes/Vector4.cpp
+ /home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/Classes/Vector4.h
+CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.o
+ /home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/Classes/Vector3.h
+ /home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/Classes/Vector4.h
+ /home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/LorentzVectorApp.cpp
+ /home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/LorentzVectorApp.h
+ /home/roy/CLionProjects/Odevler/Train/Commands/ExitCommand.h
+ /home/roy/CLionProjects/Odevler/Train/Core/App.h
+ /home/roy/CLionProjects/Odevler/Train/Core/Command.h
 CMakeFiles/Train.dir/Apps/MainApp.cpp.o
  /home/roy/CLionProjects/Odevler/Train/Apps/Book/BookApp.h
  /home/roy/CLionProjects/Odevler/Train/Apps/Employee/EmployeeApp.h
+ /home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/LorentzVectorApp.h
  /home/roy/CLionProjects/Odevler/Train/Apps/MainApp.cpp
  /home/roy/CLionProjects/Odevler/Train/Apps/MainApp.h
  /home/roy/CLionProjects/Odevler/Train/Commands/ExitCommand.h

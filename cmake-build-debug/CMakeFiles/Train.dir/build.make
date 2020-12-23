@@ -428,6 +428,45 @@ CMakeFiles/Train.dir/Apps/Employee/Commands/ReadEmployeesFromFileCommand.cpp.s: 
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Apps/Employee/Commands/ReadEmployeesFromFileCommand.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Apps/Employee/Commands/ReadEmployeesFromFileCommand.cpp -o CMakeFiles/Train.dir/Apps/Employee/Commands/ReadEmployeesFromFileCommand.cpp.s
 
+CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector3.cpp.o: CMakeFiles/Train.dir/flags.make
+CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector3.cpp.o: ../Apps/LorentzVector/Classes/Vector3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector3.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector3.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/Classes/Vector3.cpp
+
+CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/Classes/Vector3.cpp > CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector3.cpp.i
+
+CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/Classes/Vector3.cpp -o CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector3.cpp.s
+
+CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector4.cpp.o: CMakeFiles/Train.dir/flags.make
+CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector4.cpp.o: ../Apps/LorentzVector/Classes/Vector4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector4.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector4.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/Classes/Vector4.cpp
+
+CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector4.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/Classes/Vector4.cpp > CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector4.cpp.i
+
+CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector4.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/Classes/Vector4.cpp -o CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector4.cpp.s
+
+CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.o: CMakeFiles/Train.dir/flags.make
+CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.o: ../Apps/LorentzVector/LorentzVectorApp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/LorentzVectorApp.cpp
+
+CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/LorentzVectorApp.cpp > CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.i
+
+CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/LorentzVectorApp.cpp -o CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.s
+
 # Object files for target Train
 Train_OBJECTS = \
 "CMakeFiles/Train.dir/main.cpp.o" \
@@ -456,7 +495,10 @@ Train_OBJECTS = \
 "CMakeFiles/Train.dir/Apps/Employee/Classes/BasePlusCommissionEmployee.cpp.o" \
 "CMakeFiles/Train.dir/Apps/Employee/Commands/CreateCommisionEmployeeCommand.cpp.o" \
 "CMakeFiles/Train.dir/Apps/Employee/Commands/InsertCommisionEmployeeCommand.cpp.o" \
-"CMakeFiles/Train.dir/Apps/Employee/Commands/ReadEmployeesFromFileCommand.cpp.o"
+"CMakeFiles/Train.dir/Apps/Employee/Commands/ReadEmployeesFromFileCommand.cpp.o" \
+"CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector3.cpp.o" \
+"CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector4.cpp.o" \
+"CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.o"
 
 # External object files for target Train
 Train_EXTERNAL_OBJECTS =
@@ -488,9 +530,12 @@ Train: CMakeFiles/Train.dir/Apps/Employee/Classes/BasePlusCommissionEmployee.cpp
 Train: CMakeFiles/Train.dir/Apps/Employee/Commands/CreateCommisionEmployeeCommand.cpp.o
 Train: CMakeFiles/Train.dir/Apps/Employee/Commands/InsertCommisionEmployeeCommand.cpp.o
 Train: CMakeFiles/Train.dir/Apps/Employee/Commands/ReadEmployeesFromFileCommand.cpp.o
+Train: CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector3.cpp.o
+Train: CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector4.cpp.o
+Train: CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.o
 Train: CMakeFiles/Train.dir/build.make
 Train: CMakeFiles/Train.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable Train"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX executable Train"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Train.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

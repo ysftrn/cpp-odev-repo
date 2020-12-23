@@ -12,6 +12,7 @@
 #include "../Commands/ExitCommand.h"
 #include "../Commands/RunAppCommand.h"
 #include "Employee/EmployeeApp.h"
+#include "LorentzVector/LorentzVectorApp.h"
 
 
 using namespace std;
@@ -26,6 +27,7 @@ int MainApp::run(){
 
         cout << "For run Book app press     'b'"<< endl;
         cout << "For run Employee app press   'c'"<< endl;
+        cout << "For run Lorent Vector app press   'l'"<< endl;
         cout << "Choose App (x for exit on BookApp) = ";
         cin >>  commandText;
         cout << endl;
@@ -40,6 +42,9 @@ int MainApp::run(){
 
         if(commandText == 'b'){
             RunAppCommand(*new BookApp()).Execute();
+        }
+        if(commandText == 'l'){
+            RunAppCommand(*new LorentzVectorApp()).Execute();
         }
 
     }

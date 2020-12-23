@@ -107,8 +107,24 @@ CMakeFiles/Train.dir/Apps/Employee/EmployeeApp.cpp.o: ../Commands/ExitCommand.h
 CMakeFiles/Train.dir/Apps/Employee/EmployeeApp.cpp.o: ../Core/App.h
 CMakeFiles/Train.dir/Apps/Employee/EmployeeApp.cpp.o: ../Core/Command.h
 
+CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector3.cpp.o: ../Apps/LorentzVector/Classes/Vector3.cpp
+CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector3.cpp.o: ../Apps/LorentzVector/Classes/Vector3.h
+
+CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector4.cpp.o: ../Apps/LorentzVector/Classes/Vector3.h
+CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector4.cpp.o: ../Apps/LorentzVector/Classes/Vector4.cpp
+CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector4.cpp.o: ../Apps/LorentzVector/Classes/Vector4.h
+
+CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.o: ../Apps/LorentzVector/Classes/Vector3.h
+CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.o: ../Apps/LorentzVector/Classes/Vector4.h
+CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.o: ../Apps/LorentzVector/LorentzVectorApp.cpp
+CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.o: ../Apps/LorentzVector/LorentzVectorApp.h
+CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.o: ../Commands/ExitCommand.h
+CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.o: ../Core/App.h
+CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.o: ../Core/Command.h
+
 CMakeFiles/Train.dir/Apps/MainApp.cpp.o: ../Apps/Book/BookApp.h
 CMakeFiles/Train.dir/Apps/MainApp.cpp.o: ../Apps/Employee/EmployeeApp.h
+CMakeFiles/Train.dir/Apps/MainApp.cpp.o: ../Apps/LorentzVector/LorentzVectorApp.h
 CMakeFiles/Train.dir/Apps/MainApp.cpp.o: ../Apps/MainApp.cpp
 CMakeFiles/Train.dir/Apps/MainApp.cpp.o: ../Apps/MainApp.h
 CMakeFiles/Train.dir/Apps/MainApp.cpp.o: ../Commands/ExitCommand.h

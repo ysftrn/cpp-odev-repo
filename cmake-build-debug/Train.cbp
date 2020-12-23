@@ -162,6 +162,27 @@
 		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Employee/EmployeeApp.h">
 			<Option target="Train"/>
 		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/Classes/Vector3.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/Classes/Vector3.h">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/Classes/Vector4.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/Classes/Vector4.h">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/LorentzVectorApp.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/LorentzVectorApp.h">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/Utils/Utils.h">
+			<Option target="Train"/>
+		</Unit>
 		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/MainApp.cpp">
 			<Option target="Train"/>
 		</Unit>
