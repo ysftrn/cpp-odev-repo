@@ -126,6 +126,18 @@
 		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Book/Commands/NextPageCommand.h">
 			<Option target="Train"/>
 		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/ComplexNumber/Classes/Complex.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/ComplexNumber/Classes/Complex.h">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/ComplexNumber/ComplexNumberApp.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/ComplexNumber/ComplexNumberApp.h">
+			<Option target="Train"/>
+		</Unit>
 		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Employee/Classes/BasePlusCommissionEmployee.cpp">
 			<Option target="Train"/>
 		</Unit>
@@ -187,6 +199,24 @@
 			<Option target="Train"/>
 		</Unit>
 		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/MainApp.h">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/Classes/Cube.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/Classes/Cube.h">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/Classes/Rectangle.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/Classes/Rectangle.h">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/RectangleApp.cpp">
+			<Option target="Train"/>
+		</Unit>
+		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/RectangleApp.h">
 			<Option target="Train"/>
 		</Unit>
 		<Unit filename="/home/roy/CLionProjects/Odevler/Train/Commands/ComplexCommand.cpp">

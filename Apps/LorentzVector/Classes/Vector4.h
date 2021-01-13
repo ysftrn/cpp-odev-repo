@@ -24,7 +24,7 @@ public:
     double Getz(){return c;}
     double Getct(){return ct;}
 
-    double scalar(Vector4 v4);
+    double scalar(Vector4 v4, double metric[]);
 
     Vector4 LorentzTransformation(double v) ;
 

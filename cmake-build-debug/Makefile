@@ -59,10 +59,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/137/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/138/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/137/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/138/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = /home/roy/CLionProjects/Odevler/Train/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/137/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/138/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -90,7 +90,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/137/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/138/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -331,6 +331,60 @@ Apps/Book/Commands/NextPageCommand.s: Apps/Book/Commands/NextPageCommand.cpp.s
 Apps/Book/Commands/NextPageCommand.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Apps/Book/Commands/NextPageCommand.cpp.s
 .PHONY : Apps/Book/Commands/NextPageCommand.cpp.s
+
+Apps/ComplexNumber/Classes/Complex.o: Apps/ComplexNumber/Classes/Complex.cpp.o
+
+.PHONY : Apps/ComplexNumber/Classes/Complex.o
+
+# target to build an object file
+Apps/ComplexNumber/Classes/Complex.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Apps/ComplexNumber/Classes/Complex.cpp.o
+.PHONY : Apps/ComplexNumber/Classes/Complex.cpp.o
+
+Apps/ComplexNumber/Classes/Complex.i: Apps/ComplexNumber/Classes/Complex.cpp.i
+
+.PHONY : Apps/ComplexNumber/Classes/Complex.i
+
+# target to preprocess a source file
+Apps/ComplexNumber/Classes/Complex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Apps/ComplexNumber/Classes/Complex.cpp.i
+.PHONY : Apps/ComplexNumber/Classes/Complex.cpp.i
+
+Apps/ComplexNumber/Classes/Complex.s: Apps/ComplexNumber/Classes/Complex.cpp.s
+
+.PHONY : Apps/ComplexNumber/Classes/Complex.s
+
+# target to generate assembly for a file
+Apps/ComplexNumber/Classes/Complex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Apps/ComplexNumber/Classes/Complex.cpp.s
+.PHONY : Apps/ComplexNumber/Classes/Complex.cpp.s
+
+Apps/ComplexNumber/ComplexNumberApp.o: Apps/ComplexNumber/ComplexNumberApp.cpp.o
+
+.PHONY : Apps/ComplexNumber/ComplexNumberApp.o
+
+# target to build an object file
+Apps/ComplexNumber/ComplexNumberApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Apps/ComplexNumber/ComplexNumberApp.cpp.o
+.PHONY : Apps/ComplexNumber/ComplexNumberApp.cpp.o
+
+Apps/ComplexNumber/ComplexNumberApp.i: Apps/ComplexNumber/ComplexNumberApp.cpp.i
+
+.PHONY : Apps/ComplexNumber/ComplexNumberApp.i
+
+# target to preprocess a source file
+Apps/ComplexNumber/ComplexNumberApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Apps/ComplexNumber/ComplexNumberApp.cpp.i
+.PHONY : Apps/ComplexNumber/ComplexNumberApp.cpp.i
+
+Apps/ComplexNumber/ComplexNumberApp.s: Apps/ComplexNumber/ComplexNumberApp.cpp.s
+
+.PHONY : Apps/ComplexNumber/ComplexNumberApp.s
+
+# target to generate assembly for a file
+Apps/ComplexNumber/ComplexNumberApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Apps/ComplexNumber/ComplexNumberApp.cpp.s
+.PHONY : Apps/ComplexNumber/ComplexNumberApp.cpp.s
 
 Apps/Employee/Classes/BasePlusCommissionEmployee.o: Apps/Employee/Classes/BasePlusCommissionEmployee.cpp.o
 
@@ -601,6 +655,87 @@ Apps/MainApp.s: Apps/MainApp.cpp.s
 Apps/MainApp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Apps/MainApp.cpp.s
 .PHONY : Apps/MainApp.cpp.s
+
+Apps/Rectangle/Classes/Cube.o: Apps/Rectangle/Classes/Cube.cpp.o
+
+.PHONY : Apps/Rectangle/Classes/Cube.o
+
+# target to build an object file
+Apps/Rectangle/Classes/Cube.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Apps/Rectangle/Classes/Cube.cpp.o
+.PHONY : Apps/Rectangle/Classes/Cube.cpp.o
+
+Apps/Rectangle/Classes/Cube.i: Apps/Rectangle/Classes/Cube.cpp.i
+
+.PHONY : Apps/Rectangle/Classes/Cube.i
+
+# target to preprocess a source file
+Apps/Rectangle/Classes/Cube.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Apps/Rectangle/Classes/Cube.cpp.i
+.PHONY : Apps/Rectangle/Classes/Cube.cpp.i
+
+Apps/Rectangle/Classes/Cube.s: Apps/Rectangle/Classes/Cube.cpp.s
+
+.PHONY : Apps/Rectangle/Classes/Cube.s
+
+# target to generate assembly for a file
+Apps/Rectangle/Classes/Cube.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Apps/Rectangle/Classes/Cube.cpp.s
+.PHONY : Apps/Rectangle/Classes/Cube.cpp.s
+
+Apps/Rectangle/Classes/Rectangle.o: Apps/Rectangle/Classes/Rectangle.cpp.o
+
+.PHONY : Apps/Rectangle/Classes/Rectangle.o
+
+# target to build an object file
+Apps/Rectangle/Classes/Rectangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Apps/Rectangle/Classes/Rectangle.cpp.o
+.PHONY : Apps/Rectangle/Classes/Rectangle.cpp.o
+
+Apps/Rectangle/Classes/Rectangle.i: Apps/Rectangle/Classes/Rectangle.cpp.i
+
+.PHONY : Apps/Rectangle/Classes/Rectangle.i
+
+# target to preprocess a source file
+Apps/Rectangle/Classes/Rectangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Apps/Rectangle/Classes/Rectangle.cpp.i
+.PHONY : Apps/Rectangle/Classes/Rectangle.cpp.i
+
+Apps/Rectangle/Classes/Rectangle.s: Apps/Rectangle/Classes/Rectangle.cpp.s
+
+.PHONY : Apps/Rectangle/Classes/Rectangle.s
+
+# target to generate assembly for a file
+Apps/Rectangle/Classes/Rectangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Apps/Rectangle/Classes/Rectangle.cpp.s
+.PHONY : Apps/Rectangle/Classes/Rectangle.cpp.s
+
+Apps/Rectangle/RectangleApp.o: Apps/Rectangle/RectangleApp.cpp.o
+
+.PHONY : Apps/Rectangle/RectangleApp.o
+
+# target to build an object file
+Apps/Rectangle/RectangleApp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Apps/Rectangle/RectangleApp.cpp.o
+.PHONY : Apps/Rectangle/RectangleApp.cpp.o
+
+Apps/Rectangle/RectangleApp.i: Apps/Rectangle/RectangleApp.cpp.i
+
+.PHONY : Apps/Rectangle/RectangleApp.i
+
+# target to preprocess a source file
+Apps/Rectangle/RectangleApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Apps/Rectangle/RectangleApp.cpp.i
+.PHONY : Apps/Rectangle/RectangleApp.cpp.i
+
+Apps/Rectangle/RectangleApp.s: Apps/Rectangle/RectangleApp.cpp.s
+
+.PHONY : Apps/Rectangle/RectangleApp.s
+
+# target to generate assembly for a file
+Apps/Rectangle/RectangleApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/Apps/Rectangle/RectangleApp.cpp.s
+.PHONY : Apps/Rectangle/RectangleApp.cpp.s
 
 Commands/ComplexCommand.o: Commands/ComplexCommand.cpp.o
 
@@ -983,6 +1118,12 @@ help:
 	@echo "... Apps/Book/Commands/NextPageCommand.o"
 	@echo "... Apps/Book/Commands/NextPageCommand.i"
 	@echo "... Apps/Book/Commands/NextPageCommand.s"
+	@echo "... Apps/ComplexNumber/Classes/Complex.o"
+	@echo "... Apps/ComplexNumber/Classes/Complex.i"
+	@echo "... Apps/ComplexNumber/Classes/Complex.s"
+	@echo "... Apps/ComplexNumber/ComplexNumberApp.o"
+	@echo "... Apps/ComplexNumber/ComplexNumberApp.i"
+	@echo "... Apps/ComplexNumber/ComplexNumberApp.s"
 	@echo "... Apps/Employee/Classes/BasePlusCommissionEmployee.o"
 	@echo "... Apps/Employee/Classes/BasePlusCommissionEmployee.i"
 	@echo "... Apps/Employee/Classes/BasePlusCommissionEmployee.s"
@@ -1013,6 +1154,15 @@ help:
 	@echo "... Apps/MainApp.o"
 	@echo "... Apps/MainApp.i"
 	@echo "... Apps/MainApp.s"
+	@echo "... Apps/Rectangle/Classes/Cube.o"
+	@echo "... Apps/Rectangle/Classes/Cube.i"
+	@echo "... Apps/Rectangle/Classes/Cube.s"
+	@echo "... Apps/Rectangle/Classes/Rectangle.o"
+	@echo "... Apps/Rectangle/Classes/Rectangle.i"
+	@echo "... Apps/Rectangle/Classes/Rectangle.s"
+	@echo "... Apps/Rectangle/RectangleApp.o"
+	@echo "... Apps/Rectangle/RectangleApp.i"
+	@echo "... Apps/Rectangle/RectangleApp.s"
 	@echo "... Commands/ComplexCommand.o"
 	@echo "... Commands/ComplexCommand.i"
 	@echo "... Commands/ComplexCommand.s"

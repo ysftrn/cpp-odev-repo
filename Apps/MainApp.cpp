@@ -13,6 +13,8 @@
 #include "../Commands/RunAppCommand.h"
 #include "Employee/EmployeeApp.h"
 #include "LorentzVector/LorentzVectorApp.h"
+#include "ComplexNumber/ComplexNumberApp.h"
+#include "Rectangle/RectangleApp.h"
 
 
 using namespace std;
@@ -28,6 +30,8 @@ int MainApp::run(){
         cout << "For run Book app press     'b'"<< endl;
         cout << "For run Employee app press   'c'"<< endl;
         cout << "For run Lorent Vector app press   'l'"<< endl;
+        cout << "For run ComplexNumber app press   'k'"<< endl;
+        cout << "For run Rectangle app press   'r'"<< endl;
         cout << "Choose App (x for exit on BookApp) = ";
         cin >>  commandText;
         cout << endl;
@@ -43,8 +47,17 @@ int MainApp::run(){
         if(commandText == 'b'){
             RunAppCommand(*new BookApp()).Execute();
         }
+
+        if(commandText == 'k'){
+            RunAppCommand(*new ComplexNumberApp()).Execute();
+        }
+
         if(commandText == 'l'){
             RunAppCommand(*new LorentzVectorApp()).Execute();
+        }
+
+        if(commandText == 'r'){
+            RunAppCommand(*new RectangleApp()).Execute();
         }
 
     }

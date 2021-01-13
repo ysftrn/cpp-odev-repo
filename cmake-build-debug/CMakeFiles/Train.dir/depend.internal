@@ -68,6 +68,16 @@ CMakeFiles/Train.dir/Apps/Book/Commands/NextPageCommand.cpp.o
  /home/roy/CLionProjects/Odevler/Train/Apps/Book/Commands/NextPageCommand.h
  /home/roy/CLionProjects/Odevler/Train/Core/App.h
  /home/roy/CLionProjects/Odevler/Train/Core/Command.h
+CMakeFiles/Train.dir/Apps/ComplexNumber/Classes/Complex.cpp.o
+ /home/roy/CLionProjects/Odevler/Train/Apps/ComplexNumber/Classes/Complex.cpp
+ /home/roy/CLionProjects/Odevler/Train/Apps/ComplexNumber/Classes/Complex.h
+CMakeFiles/Train.dir/Apps/ComplexNumber/ComplexNumberApp.cpp.o
+ /home/roy/CLionProjects/Odevler/Train/Apps/ComplexNumber/Classes/Complex.h
+ /home/roy/CLionProjects/Odevler/Train/Apps/ComplexNumber/ComplexNumberApp.cpp
+ /home/roy/CLionProjects/Odevler/Train/Apps/ComplexNumber/ComplexNumberApp.h
+ /home/roy/CLionProjects/Odevler/Train/Commands/ExitCommand.h
+ /home/roy/CLionProjects/Odevler/Train/Core/App.h
+ /home/roy/CLionProjects/Odevler/Train/Core/Command.h
 CMakeFiles/Train.dir/Apps/Employee/Classes/BasePlusCommissionEmployee.cpp.o
  /home/roy/CLionProjects/Odevler/Train/Apps/Employee/Classes/BasePlusCommissionEmployee.cpp
  /home/roy/CLionProjects/Odevler/Train/Apps/Employee/Classes/BasePlusCommissionEmployee.h
@@ -124,12 +134,29 @@ CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.o
  /home/roy/CLionProjects/Odevler/Train/Core/Command.h
 CMakeFiles/Train.dir/Apps/MainApp.cpp.o
  /home/roy/CLionProjects/Odevler/Train/Apps/Book/BookApp.h
+ /home/roy/CLionProjects/Odevler/Train/Apps/ComplexNumber/ComplexNumberApp.h
  /home/roy/CLionProjects/Odevler/Train/Apps/Employee/EmployeeApp.h
  /home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/LorentzVectorApp.h
  /home/roy/CLionProjects/Odevler/Train/Apps/MainApp.cpp
  /home/roy/CLionProjects/Odevler/Train/Apps/MainApp.h
+ /home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/RectangleApp.h
  /home/roy/CLionProjects/Odevler/Train/Commands/ExitCommand.h
  /home/roy/CLionProjects/Odevler/Train/Commands/RunAppCommand.h
+ /home/roy/CLionProjects/Odevler/Train/Core/App.h
+ /home/roy/CLionProjects/Odevler/Train/Core/Command.h
+CMakeFiles/Train.dir/Apps/Rectangle/Classes/Cube.cpp.o
+ /home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/Classes/Cube.cpp
+ /home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/Classes/Cube.h
+ /home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/Classes/Rectangle.h
+CMakeFiles/Train.dir/Apps/Rectangle/Classes/Rectangle.cpp.o
+ /home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/Classes/Rectangle.cpp
+ /home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/Classes/Rectangle.h
+CMakeFiles/Train.dir/Apps/Rectangle/RectangleApp.cpp.o
+ /home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/Classes/Cube.h
+ /home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/Classes/Rectangle.h
+ /home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/RectangleApp.cpp
+ /home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/RectangleApp.h
+ /home/roy/CLionProjects/Odevler/Train/Commands/ExitCommand.h
  /home/roy/CLionProjects/Odevler/Train/Core/App.h
  /home/roy/CLionProjects/Odevler/Train/Core/Command.h
 CMakeFiles/Train.dir/Commands/ComplexCommand.cpp.o

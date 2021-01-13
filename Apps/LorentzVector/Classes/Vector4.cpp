@@ -8,7 +8,7 @@ Vector4::Vector4() {
     a=b=c=ct=0;
 }
 
-double Vector4::scalar(Vector4 v4) {
+double Vector4::scalar(Vector4 v4, double metric[] ) {
     double temp;
     temp=a*v4.Getx()-b*v4.Gety()-c*v4.Getz()-ct*v4.Getct();
     return temp;

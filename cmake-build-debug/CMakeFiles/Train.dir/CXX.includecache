@@ -6,31 +6,37 @@
 
 #IncludeRegexTransform: 
 
-/home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/Classes/Vector3.h
+/home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/Classes/Cube.h
+Rectangle.h
+/home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/Classes/Rectangle.h
+
+/home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/Classes/Rectangle.h
 iostream
+-
+iomanip
 -
 cmath
 -
-
-/home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/Classes/Vector4.h
-Vector3.h
-/home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/Classes/Vector3.h
-
-/home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/LorentzVectorApp.cpp
-LorentzVectorApp.h
-/home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/LorentzVectorApp.h
-iostream
-/home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/iostream
 list
-/home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/list
+-
+algorithm
+-
+
+/home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/RectangleApp.cpp
+RectangleApp.h
+/home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/RectangleApp.h
+iostream
+/home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/iostream
+list
+/home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/list
 ../../Commands/ExitCommand.h
 /home/roy/CLionProjects/Odevler/Train/Commands/ExitCommand.h
-Classes/Vector3.h
-/home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/Classes/Vector3.h
-Classes/Vector4.h
-/home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/Classes/Vector4.h
+Classes/Rectangle.h
+/home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/Classes/Rectangle.h
+Classes/Cube.h
+/home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/Classes/Cube.h
 
-/home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/LorentzVectorApp.h
+/home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/RectangleApp.h
 ../../Core/App.h
 /home/roy/CLionProjects/Odevler/Train/Core/App.h
 

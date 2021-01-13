@@ -55,10 +55,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/137/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/138/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/137/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/138/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -94,12 +94,12 @@ clean: CMakeFiles/Train.dir/clean
 CMakeFiles/Train.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Train.dir/build.make CMakeFiles/Train.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31 "Built target Train"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36 "Built target Train"
 .PHONY : CMakeFiles/Train.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Train.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles 36
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Train.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Train.dir/rule

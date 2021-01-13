@@ -37,7 +37,7 @@ int LorentzVectorApp::run() {
     cout<<v5<<endl;
 
     cout<<"Scalar product of Vector 4 and 5:"<<endl;
-    cout<<v4.scalar(v5)<<endl;
+    //cout<<v4.scalar(v5)<<endl;
 
     Vector4 vprime;
     double v= 2.996e8;

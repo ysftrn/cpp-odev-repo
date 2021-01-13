@@ -54,10 +54,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/137/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/138/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/137/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/138/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -467,6 +467,71 @@ CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Apps/LorentzVector/LorentzVectorApp.cpp -o CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.s
 
+CMakeFiles/Train.dir/Apps/ComplexNumber/Classes/Complex.cpp.o: CMakeFiles/Train.dir/flags.make
+CMakeFiles/Train.dir/Apps/ComplexNumber/Classes/Complex.cpp.o: ../Apps/ComplexNumber/Classes/Complex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/Train.dir/Apps/ComplexNumber/Classes/Complex.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Apps/ComplexNumber/Classes/Complex.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Apps/ComplexNumber/Classes/Complex.cpp
+
+CMakeFiles/Train.dir/Apps/ComplexNumber/Classes/Complex.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Apps/ComplexNumber/Classes/Complex.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Apps/ComplexNumber/Classes/Complex.cpp > CMakeFiles/Train.dir/Apps/ComplexNumber/Classes/Complex.cpp.i
+
+CMakeFiles/Train.dir/Apps/ComplexNumber/Classes/Complex.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Apps/ComplexNumber/Classes/Complex.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Apps/ComplexNumber/Classes/Complex.cpp -o CMakeFiles/Train.dir/Apps/ComplexNumber/Classes/Complex.cpp.s
+
+CMakeFiles/Train.dir/Apps/ComplexNumber/ComplexNumberApp.cpp.o: CMakeFiles/Train.dir/flags.make
+CMakeFiles/Train.dir/Apps/ComplexNumber/ComplexNumberApp.cpp.o: ../Apps/ComplexNumber/ComplexNumberApp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/Train.dir/Apps/ComplexNumber/ComplexNumberApp.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Apps/ComplexNumber/ComplexNumberApp.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Apps/ComplexNumber/ComplexNumberApp.cpp
+
+CMakeFiles/Train.dir/Apps/ComplexNumber/ComplexNumberApp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Apps/ComplexNumber/ComplexNumberApp.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Apps/ComplexNumber/ComplexNumberApp.cpp > CMakeFiles/Train.dir/Apps/ComplexNumber/ComplexNumberApp.cpp.i
+
+CMakeFiles/Train.dir/Apps/ComplexNumber/ComplexNumberApp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Apps/ComplexNumber/ComplexNumberApp.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Apps/ComplexNumber/ComplexNumberApp.cpp -o CMakeFiles/Train.dir/Apps/ComplexNumber/ComplexNumberApp.cpp.s
+
+CMakeFiles/Train.dir/Apps/Rectangle/Classes/Rectangle.cpp.o: CMakeFiles/Train.dir/flags.make
+CMakeFiles/Train.dir/Apps/Rectangle/Classes/Rectangle.cpp.o: ../Apps/Rectangle/Classes/Rectangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/Train.dir/Apps/Rectangle/Classes/Rectangle.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Apps/Rectangle/Classes/Rectangle.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/Classes/Rectangle.cpp
+
+CMakeFiles/Train.dir/Apps/Rectangle/Classes/Rectangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Apps/Rectangle/Classes/Rectangle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/Classes/Rectangle.cpp > CMakeFiles/Train.dir/Apps/Rectangle/Classes/Rectangle.cpp.i
+
+CMakeFiles/Train.dir/Apps/Rectangle/Classes/Rectangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Apps/Rectangle/Classes/Rectangle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/Classes/Rectangle.cpp -o CMakeFiles/Train.dir/Apps/Rectangle/Classes/Rectangle.cpp.s
+
+CMakeFiles/Train.dir/Apps/Rectangle/RectangleApp.cpp.o: CMakeFiles/Train.dir/flags.make
+CMakeFiles/Train.dir/Apps/Rectangle/RectangleApp.cpp.o: ../Apps/Rectangle/RectangleApp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/Train.dir/Apps/Rectangle/RectangleApp.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Apps/Rectangle/RectangleApp.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/RectangleApp.cpp
+
+CMakeFiles/Train.dir/Apps/Rectangle/RectangleApp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Apps/Rectangle/RectangleApp.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/RectangleApp.cpp > CMakeFiles/Train.dir/Apps/Rectangle/RectangleApp.cpp.i
+
+CMakeFiles/Train.dir/Apps/Rectangle/RectangleApp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Apps/Rectangle/RectangleApp.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/RectangleApp.cpp -o CMakeFiles/Train.dir/Apps/Rectangle/RectangleApp.cpp.s
+
+CMakeFiles/Train.dir/Apps/Rectangle/Classes/Cube.cpp.o: CMakeFiles/Train.dir/flags.make
+CMakeFiles/Train.dir/Apps/Rectangle/Classes/Cube.cpp.o: ../Apps/Rectangle/Classes/Cube.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/Train.dir/Apps/Rectangle/Classes/Cube.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Train.dir/Apps/Rectangle/Classes/Cube.cpp.o -c /home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/Classes/Cube.cpp
+
+CMakeFiles/Train.dir/Apps/Rectangle/Classes/Cube.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Train.dir/Apps/Rectangle/Classes/Cube.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/Classes/Cube.cpp > CMakeFiles/Train.dir/Apps/Rectangle/Classes/Cube.cpp.i
+
+CMakeFiles/Train.dir/Apps/Rectangle/Classes/Cube.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Train.dir/Apps/Rectangle/Classes/Cube.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roy/CLionProjects/Odevler/Train/Apps/Rectangle/Classes/Cube.cpp -o CMakeFiles/Train.dir/Apps/Rectangle/Classes/Cube.cpp.s
+
 # Object files for target Train
 Train_OBJECTS = \
 "CMakeFiles/Train.dir/main.cpp.o" \
@@ -498,7 +563,12 @@ Train_OBJECTS = \
 "CMakeFiles/Train.dir/Apps/Employee/Commands/ReadEmployeesFromFileCommand.cpp.o" \
 "CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector3.cpp.o" \
 "CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector4.cpp.o" \
-"CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.o"
+"CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.o" \
+"CMakeFiles/Train.dir/Apps/ComplexNumber/Classes/Complex.cpp.o" \
+"CMakeFiles/Train.dir/Apps/ComplexNumber/ComplexNumberApp.cpp.o" \
+"CMakeFiles/Train.dir/Apps/Rectangle/Classes/Rectangle.cpp.o" \
+"CMakeFiles/Train.dir/Apps/Rectangle/RectangleApp.cpp.o" \
+"CMakeFiles/Train.dir/Apps/Rectangle/Classes/Cube.cpp.o"
 
 # External object files for target Train
 Train_EXTERNAL_OBJECTS =
@@ -533,9 +603,14 @@ Train: CMakeFiles/Train.dir/Apps/Employee/Commands/ReadEmployeesFromFileCommand.
 Train: CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector3.cpp.o
 Train: CMakeFiles/Train.dir/Apps/LorentzVector/Classes/Vector4.cpp.o
 Train: CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.o
+Train: CMakeFiles/Train.dir/Apps/ComplexNumber/Classes/Complex.cpp.o
+Train: CMakeFiles/Train.dir/Apps/ComplexNumber/ComplexNumberApp.cpp.o
+Train: CMakeFiles/Train.dir/Apps/Rectangle/Classes/Rectangle.cpp.o
+Train: CMakeFiles/Train.dir/Apps/Rectangle/RectangleApp.cpp.o
+Train: CMakeFiles/Train.dir/Apps/Rectangle/Classes/Cube.cpp.o
 Train: CMakeFiles/Train.dir/build.make
 Train: CMakeFiles/Train.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX executable Train"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/roy/CLionProjects/Odevler/Train/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX executable Train"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Train.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

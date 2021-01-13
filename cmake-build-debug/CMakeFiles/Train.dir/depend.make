@@ -68,6 +68,16 @@ CMakeFiles/Train.dir/Apps/Book/Commands/NextPageCommand.cpp.o: ../Apps/Book/Comm
 CMakeFiles/Train.dir/Apps/Book/Commands/NextPageCommand.cpp.o: ../Core/App.h
 CMakeFiles/Train.dir/Apps/Book/Commands/NextPageCommand.cpp.o: ../Core/Command.h
 
+CMakeFiles/Train.dir/Apps/ComplexNumber/Classes/Complex.cpp.o: ../Apps/ComplexNumber/Classes/Complex.cpp
+CMakeFiles/Train.dir/Apps/ComplexNumber/Classes/Complex.cpp.o: ../Apps/ComplexNumber/Classes/Complex.h
+
+CMakeFiles/Train.dir/Apps/ComplexNumber/ComplexNumberApp.cpp.o: ../Apps/ComplexNumber/Classes/Complex.h
+CMakeFiles/Train.dir/Apps/ComplexNumber/ComplexNumberApp.cpp.o: ../Apps/ComplexNumber/ComplexNumberApp.cpp
+CMakeFiles/Train.dir/Apps/ComplexNumber/ComplexNumberApp.cpp.o: ../Apps/ComplexNumber/ComplexNumberApp.h
+CMakeFiles/Train.dir/Apps/ComplexNumber/ComplexNumberApp.cpp.o: ../Commands/ExitCommand.h
+CMakeFiles/Train.dir/Apps/ComplexNumber/ComplexNumberApp.cpp.o: ../Core/App.h
+CMakeFiles/Train.dir/Apps/ComplexNumber/ComplexNumberApp.cpp.o: ../Core/Command.h
+
 CMakeFiles/Train.dir/Apps/Employee/Classes/BasePlusCommissionEmployee.cpp.o: ../Apps/Employee/Classes/BasePlusCommissionEmployee.cpp
 CMakeFiles/Train.dir/Apps/Employee/Classes/BasePlusCommissionEmployee.cpp.o: ../Apps/Employee/Classes/BasePlusCommissionEmployee.h
 CMakeFiles/Train.dir/Apps/Employee/Classes/BasePlusCommissionEmployee.cpp.o: ../Apps/Employee/Classes/CommissionEmployee.h
@@ -123,14 +133,31 @@ CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.o: ../Core/App.h
 CMakeFiles/Train.dir/Apps/LorentzVector/LorentzVectorApp.cpp.o: ../Core/Command.h
 
 CMakeFiles/Train.dir/Apps/MainApp.cpp.o: ../Apps/Book/BookApp.h
+CMakeFiles/Train.dir/Apps/MainApp.cpp.o: ../Apps/ComplexNumber/ComplexNumberApp.h
 CMakeFiles/Train.dir/Apps/MainApp.cpp.o: ../Apps/Employee/EmployeeApp.h
 CMakeFiles/Train.dir/Apps/MainApp.cpp.o: ../Apps/LorentzVector/LorentzVectorApp.h
 CMakeFiles/Train.dir/Apps/MainApp.cpp.o: ../Apps/MainApp.cpp
 CMakeFiles/Train.dir/Apps/MainApp.cpp.o: ../Apps/MainApp.h
+CMakeFiles/Train.dir/Apps/MainApp.cpp.o: ../Apps/Rectangle/RectangleApp.h
 CMakeFiles/Train.dir/Apps/MainApp.cpp.o: ../Commands/ExitCommand.h
 CMakeFiles/Train.dir/Apps/MainApp.cpp.o: ../Commands/RunAppCommand.h
 CMakeFiles/Train.dir/Apps/MainApp.cpp.o: ../Core/App.h
 CMakeFiles/Train.dir/Apps/MainApp.cpp.o: ../Core/Command.h
+
+CMakeFiles/Train.dir/Apps/Rectangle/Classes/Cube.cpp.o: ../Apps/Rectangle/Classes/Cube.cpp
+CMakeFiles/Train.dir/Apps/Rectangle/Classes/Cube.cpp.o: ../Apps/Rectangle/Classes/Cube.h
+CMakeFiles/Train.dir/Apps/Rectangle/Classes/Cube.cpp.o: ../Apps/Rectangle/Classes/Rectangle.h
+
+CMakeFiles/Train.dir/Apps/Rectangle/Classes/Rectangle.cpp.o: ../Apps/Rectangle/Classes/Rectangle.cpp
+CMakeFiles/Train.dir/Apps/Rectangle/Classes/Rectangle.cpp.o: ../Apps/Rectangle/Classes/Rectangle.h
+
+CMakeFiles/Train.dir/Apps/Rectangle/RectangleApp.cpp.o: ../Apps/Rectangle/Classes/Cube.h
+CMakeFiles/Train.dir/Apps/Rectangle/RectangleApp.cpp.o: ../Apps/Rectangle/Classes/Rectangle.h
+CMakeFiles/Train.dir/Apps/Rectangle/RectangleApp.cpp.o: ../Apps/Rectangle/RectangleApp.cpp
+CMakeFiles/Train.dir/Apps/Rectangle/RectangleApp.cpp.o: ../Apps/Rectangle/RectangleApp.h
+CMakeFiles/Train.dir/Apps/Rectangle/RectangleApp.cpp.o: ../Commands/ExitCommand.h
+CMakeFiles/Train.dir/Apps/Rectangle/RectangleApp.cpp.o: ../Core/App.h
+CMakeFiles/Train.dir/Apps/Rectangle/RectangleApp.cpp.o: ../Core/Command.h
 
 CMakeFiles/Train.dir/Commands/ComplexCommand.cpp.o: ../Apps/Book/Commands/NextPageCommand.h
 CMakeFiles/Train.dir/Commands/ComplexCommand.cpp.o: ../Commands/ComplexCommand.cpp
